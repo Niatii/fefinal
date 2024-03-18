@@ -89,8 +89,8 @@
                                 </ul>
                             </li>
                             <li class="group relative">
-                                <a href="#berita" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-6" id="berita">Berita</a>
+                                <a href="/guest/Berita" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
+                                lg:mx-6 {{ request()->is('guest/Berita') ? 'text-sky-600' : 'text-black' }}" id="berita">Berita</a>
                             </li>
                         </ul>
                     </nav>
@@ -112,17 +112,12 @@
             data-aos-easing="ease-in-back"
             data-aos-delay="200"
             data-aos-offset="0">Tentang Kami</h1>
-            
                 <div class="card card-side sm:my-4 lg:my-8 mx-4 rounded-none" data-aos="fade-right"
                 data-aos-offset="150"
                 data-aos-easing="ease-in-sine">
-                <a href="#">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                </a>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
-                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                        </a>
+                        <h2 class="card-title text-xs md:text-lg">Title Foto</h2>
                         <p class="text-[10px] overflow-hidden md:text-xs h-8">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
                         </p>
@@ -132,16 +127,13 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card card-side sm:my-4 lg:my-8 mx-4 rounded-none" data-aos="fade-right"
                 data-aos-offset="150"
                 data-aos-easing="ease-in-sine">
-                <a href="#">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                </a>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
-                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                        </a>
+                        <h2 class="card-title text-xs md:text-lg">Title Foto</h2>
                         <p class="text-[10px] overflow-hidden md:text-xs h-8">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
                         </p>
@@ -151,16 +143,13 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card card-side sm:my-4 lg:my-8 mx-4 rounded-none" data-aos="fade-right"
                 data-aos-offset="150"
                 data-aos-easing="ease-in-sine">
-                <a href="#">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                </a>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
-                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                        </a>
+                        <h2 class="card-title text-xs md:text-lg">Title Foto</h2>
                         <p class="text-[10px] overflow-hidden md:text-xs h-8">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
                         </p>
@@ -170,16 +159,13 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card card-side sm:my-4 lg:my-8 mx-4 rounded-none" data-aos="fade-right"
                 data-aos-offset="150"
                 data-aos-easing="ease-in-sine">
-                <a href="#">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                </a>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
-                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                        </a>
+                        <h2 class="card-title text-xs md:text-lg">Title Foto</h2>
                         <p class="text-[10px] overflow-hidden md:text-xs h-8">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
                         </p>

@@ -105,17 +105,79 @@
     <!-- Header End -->
     
     <!-- Content Start -->
-    <section  class="pt-36 sm:pt-40 mb-12 mx-8 flex justify-center">
-        <div class="bg-white w-full rounded-md">
+    <section  class="pt-36 sm:pt-40 mb-12 mx-8">
+        <div class="bg-white w-full py-2">
            <div class="grid grid-cols-3 gap-4 mx-5 sm:mx-10 my-2">
                 <div class="col-span-2">
-                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="">
+                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-right">
                 </div>
                 <div class="gap-y-2">
-                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita">
-                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2">
+                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-down">
+                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2" data-aos="fade-up">
                 </div>
            </div>
+           <div class="mx-5 sm:mx-10 mt-4">
+                <div class=" w-4/12">
+                    <h2 class="text-base md:text-2xl">Sub News</h2>
+                    <hr class="border-t-1 border-black my-1">
+                </div>
+                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
+                data-aos-offset="150"
+                data-aos-easing="ease-in-sine">
+                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
+                    <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
+                        <a href="#">
+                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
+                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
+                data-aos-offset="150"
+                data-aos-easing="ease-in-sine">
+                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
+                    <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
+                        <a href="#">
+                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
+                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
+                data-aos-offset="150"
+                data-aos-easing="ease-in-sine">
+                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
+                    <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
+                        <a href="#">
+                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
+                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
+                data-aos-offset="150"
+                data-aos-easing="ease-in-sine">
+                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
+                    <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
+                        <a href="#">
+                            <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
+                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </section>
     <!-- Content End -->
