@@ -17,6 +17,7 @@ export default {
         'latar': '#C2D2DA',
         'grad' : '#6591B9',
         'gradb' : '#000347',
+        'wjudul' : "#06354B"
         
       },
     },
@@ -24,7 +25,6 @@ export default {
   plugins: [
     require("daisyui"),
     require('flowbite/plugin'),
+    // require('aos/dist/aos.css'),
   ],
 }
-
-

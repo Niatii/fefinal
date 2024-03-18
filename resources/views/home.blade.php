@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     @vite(['resources/css/app.css','resources/js/app.js'])
 
     @vite('resources/css/app.css')
@@ -19,6 +19,9 @@
 
     <!-- library fontawesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
 <body class="bg-latar text-black">
@@ -33,14 +36,11 @@
                     class="w-8 my-2 mx-1 rounded-full sm:w-10 sm:ml-3"></a>
                 </div>
                 <div class="relative text-black">
-                    <img src="{{ asset('storage/properti/3.jpg') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:ml-10 sm:mr-4 md:ml-24"
-                    id="user">
-                    <ul class="dropdown bg-fot absolute top-0 right-0 mt-10 lg:mt-12 py-3 px-4 mr-5 lg:px-8 shadow-md z-20 hidden
-                    transition duration-700"
-                    id="dropdownuser">
-                        <li class="my-1 lg:my-2"><a href="#profil" class="hover:text-sky-600">Profil</a></li>
-                        <li class="my-1 lg:my-2"><a href="#logout" class="hover:text-sky-600">Logout</a></li>
-                    </ul>
+                    <a href="/login">
+                        <img src="{{ asset('storage/properti/5.jpg') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:ml-10 sm:mr-4 md:ml-24
+                        object-cover aspect-ratio-1/1">
+                    </a>
+                    
                 </div>
             </div>
             <!-- navbar start -->
@@ -54,28 +54,28 @@
                     <nav id="nav-menu" class="hidden  bg-fot  absolute py-5 shadow-md rounded-md max-w-[200px] w-full
                     top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:py-3 lg:w-full">
                         <ul class="block lg:flex">
-                            <li class="group">
+                        <li class="group">
                                 <a href="/" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
                                 lg:mx-5 {{ request()->is('/') ? 'text-sky-600' : 'text-black' }}" id="navhome">Home</a>
                             </li>
                             <li class="group relative">
-                                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-5" id="tentangkami">Tentang Kami</a>
+                                <a href="/guest/Tentang Kami" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
+                                lg:mx-5 {{ request()->is('guest/Tentang Kami') ? 'text-sky-600' : 'text-black' }}" id="tentangkami">Tentang Kami</a>
                                 
                             </li>
                             <li class="group relative ">
-                                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-5" id="konsultasi">Konsultasi</a>
+                                <a href="/guest/Konsultasi" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
+                                lg:mx-5 {{ request()->is('guest/Konsultasi') ? 'text-sky-600' : 'text-black' }}" id="konsultasi">Konsultasi</a>
                                 
                             </li>
                             <li class="group relative">
-                                <a href="#" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-5" id="riset">Riset</a>
+                                <a href="/guest/Riset" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
+                                lg:mx-5 {{ request()->is('guest/Riset') ? 'text-sky-600' : 'text-black' }}" id="riset">Riset</a>
                                
                             </li>
                             <li class="group relative">
-                                <a href="#publikasi" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-6" id="publikasi">Publikasi</a>
+                                <a href="/guest/Publikasi" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
+                                lg:mx-6 {{ request()->is('guest/Publikasi') ? 'text-sky-600' : 'text-black' }}" id="publikasi">Publikasi</a>
                                 
                             </li>
                             <li class="group relative text-black ">
@@ -89,8 +89,8 @@
                                 </ul>
                             </li>
                             <li class="group relative">
-                                <a href="#berita" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-6" id="berita">Berita</a>
+                                <a href="/guest/Berita" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
+                                lg:mx-6 {{ request()->is('guest/Berita') ? 'text-sky-600' : 'text-black' }}" id="berita">Berita</a>
                             </li>
                         </ul>
                     </nav>
@@ -103,6 +103,7 @@
         </div>
     </header>
     <!-- Header End -->
+
     <!-- Content Start -->
     <section class="pt-32 sm:pt-40 mb-18">
         <form class="w-8/12 mx-3">   
@@ -118,10 +119,10 @@
                 <button type="submit" class="text-white absolute end-0.5 bottom-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-base rounded-lg text-xs lg:text-sm px-3 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
             </div>
         </form>
-        <div class="grid mx-10 my-12 gap-x-8 gap-y-8 md:grid-cols-3">
-            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50">
-            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50">
-            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50">
+        <div  class="grid mx-10 my-12 gap-x-8 gap-y-8 md:grid-cols-3">
+            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-right">
+            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-up">
+            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-left">
         </div>
         <div class="bg-white">
             <p class="text-center font-serif py-10 text-lg md:text-2xl lg:text-4xl">Selamat Datang di Web Tax Digital</p>
@@ -130,7 +131,7 @@
     
     <!-- Content End -->
     <!-- Footer Start -->
-    <footer class="bg-fot text-black mt-20">
+    <footer class="bg-fot text-black mt-20" data-aos="fade-up">
         <div class="container max-w-full pt-2">
             <div class="grid grid-cols-4 lg:grid-cols-5 gap-3">
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
@@ -196,6 +197,10 @@
     
 
     <!-- javascript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     @vite('resources/js/app.js')
 </body>
 </html>
