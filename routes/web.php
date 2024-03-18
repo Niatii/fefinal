@@ -90,31 +90,130 @@ Route::prefix('user')->group(function () {
 
 
 Route::prefix('admin')->group(function () {
-    Route::get('/home', function () {
-        return view('admin/homeAdmin');
+    Route::get('/', function () {
+        return view('admin/adm_home');
     });
 
-    Route::get('/TentangKami', function () {
-        return view('admin/tentangkamiAdmin');
+    Route::prefix('tentang kami')->group(function () {
+        Route::get('/', function () {
+            return view('admin/tentangkami/tentang_kami');
+        });
+        Route::get('/detail', function () {
+            return view('admin/tentangkami/detail');
+        });
+        Route::get('/edit', function () {
+            return view('admin/tentangkami/edit');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/tentangkami/tambah');
+        });
     });
 
-    Route::get('/Riset', function () {
-        return view('admin/risetAdmin');
+    Route::prefix('konsultasi')->group(function () {
+        Route::get('/', function () {
+            return view('admin/konsultasi/konsultasi');
+        });
+        Route::get('/detail', function () {
+            return view('admin/konsultasi/detail');
+        });
+        Route::get('/edit', function () {
+            return view('admin/konsultasi/edit');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/konsultasi/tambah');
+        });
+        Route::get('/pertanyaan', function () {
+            return view('admin/konsultasi/pertanyaan');
+        });
+        Route::get('/detail pertanyaan', function () {
+            return view('admin/konsultasi/detail_pertanyaan');
+        });
     });
 
-    Route::get('/Konsultasi', function () {
-        return view('admin/konsultasiAdmin');
+    Route::prefix('riset')->group(function () {
+        Route::get('/', function () {
+            return view('admin/riset/riset');
+        });
+        Route::get('/detail', function () {
+            return view('admin/riset/detail');
+        });
+        Route::get('/edit', function () {
+            return view('admin/riset/edit');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/riset/tambah');
+        });
     });
 
-    Route::get('/Publikasi', function () {
-        return view('admin/publikasiAdmin');
+    Route::prefix('publikasi')->group(function () {
+        Route::get('/', function () {
+            return view('admin/publikasi/publikasi');
+        });
+        Route::get('/detail', function () {
+            return view('admin/publikasi/detail');
+        });
+        Route::get('/edit', function () {
+            return view('admin/publikasi/edit');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/publikasi/tambah');
+        });
     });
 
-    Route::get('/Akademi', function () {
-        return view('admin/akademiAdmin');
+    Route::prefix('berita')->group(function () {
+        Route::get('/', function () {
+            return view('admin/berita/berita');
+        });
+        Route::get('/detail', function () {
+            return view('admin/berita/detail');
+        });
+        Route::get('/edit', function () {
+            return view('admin/berita/edit');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/berita/tambah');
+        });
     });
 
-    Route::get('/Berita', function () {
-        return view('admin/beritaAdmin');
+    Route::prefix('pelatihan')->group(function () {
+        Route::get('/', function () {
+            return view('admin/akademi/pelatihan/pelatihan');
+        });
+        Route::get('/detail', function () {
+            return view('admin/akademi/pelatihan/detail');
+        });
+        Route::get('/edit', function () {
+            return view('admin/akademi/pelatihan/edit');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/akademi/pelatihan/tambah');
+        });
+    });
+
+    Route::prefix('kegiatan')->group(function () {
+        Route::get('/', function () {
+            return view('admin/akademi/kegiatan/kegiatan');
+        });
+        Route::get('/detail', function () {
+            return view('admin/akademi/kegiatan/detail');
+        });
+        Route::get('/edit', function () {
+            return view('admin/akademi/kegiatan/edit');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/akademi/kegiatan/tambah');
+        });
+    });
+
+    Route::prefix('akademi')->group(function () {
+        Route::get('/', function () {
+            return view('admin/akademi/akademi');
+        });
+        Route::get('/barcode', function () {
+            return view('admin/akademi/barcode');
+        });
+        Route::get('/detail pembayaran', function () {
+            return view('admin/akademi/detail_bayar');
+        });
     });
 });
