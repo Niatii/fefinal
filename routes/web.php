@@ -25,6 +25,10 @@ Route::get('/', function () {
 });
 
 Route::prefix('user')->group(function () {
+    Route::get('/', function () {
+        return view('user/user_home');
+    });
+
     Route::get('/Tentang Kami', function () {
         return view('user/tentang_kami');
     });
@@ -85,7 +89,53 @@ Route::prefix('user')->group(function () {
     Route::get('/Detail Riwayat', function () {
         return view('user/detail_riwayat');
     });
+
+    Route::get('/profil', function () {
+        return view('user/profil');
+    });
 });
+
+
+
+Route::prefix('guest')->group(function () {
+
+    Route::get('/Tentang Kami', function () {
+        return view('guest/tentang_kami');
+    });
+    Route::get('/Detail Tentang Kami', function () {
+        return view('guest/tentangkami_detail');
+    });
+
+    Route::get('/Riset', function () {
+        return view('guest/riset');
+    });
+    Route::get('/Detail Riset', function () {
+        return view('guest/riset_detail');
+    });
+
+    Route::get('/Konsultasi', function () {
+        return view('guest/konsultasi');
+    });
+    Route::get('/Detail Konsultasi', function () {
+        return view('guest/konsultasi_detail');
+    });
+
+    Route::get('/Publikasi', function () {
+        return view('guest/publikasi');
+    });
+    Route::get('/Detail Publikasi', function () {
+        return view('guest/publikasi_detail');
+    });
+
+    Route::get('/Berita', function () {
+        return view('guest/berita');
+    });
+    Route::get('/Detail Berita', function () {
+        return view('guest/berita_detail');
+    });
+});
+
+
 
 
 
