@@ -54,7 +54,7 @@
                     <nav id="nav-menu" class="hidden  bg-fot  absolute py-5 shadow-md rounded-md max-w-[200px] w-full
                     top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:py-3 lg:w-full">
                         <ul class="block lg:flex">
-                        <li class="group">
+                            <li class="group">
                                 <a href="/" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
                                 lg:mx-5 {{ request()->is('/') ? 'text-sky-600' : 'text-black' }}" id="navhome">Home</a>
                             </li>
@@ -128,8 +128,8 @@
             <p class="text-center font-serif py-10 text-lg md:text-2xl lg:text-4xl">Selamat Datang di Web Tax Digital</p>
         </div>
     </section>
-    
     <!-- Content End -->
+    
     <!-- Footer Start -->
     <footer class="bg-fot text-black mt-20" data-aos="fade-up">
         <div class="container max-w-full pt-2">
@@ -137,34 +137,34 @@
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class=" font-bold">Tentang Kami</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12" >
                   <p class="font-bold ">Konsultasi</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold">Riset</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold ">Publikasi</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold ">Akademi</p>
@@ -179,10 +179,10 @@
             <div class="mt-8 mx-2 sm:mx-12  lg:mt-12 lg:ml-12">
                 <p class="font-bold text-base lg:text-2xl">Link Reference</p>
                 <div class="flex">
-                    <a href="#"><i class="fab fa-facebook mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-instagram mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-twitter mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-youtube lg:text-xl"></i></a>
+                    <a href="https://www.facebook.com/NASA?mibextid=ZbWKwL"><i class="fab fa-facebook mr-2 lg:text-xl"></i></a>
+                    <a href="https://www.instagram.com/nasa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram mr-2 lg:text-xl"></i></a>
+                    <a href="https://x.com/NASA?s=20"><i class="fab fa-twitter mr-2 lg:text-xl"></i></a>
+                    <a href="https://www.youtube.com/@NASA"><i class="fab fa-youtube lg:text-xl"></i></a>
                     <p class="text-[8px] font-sans mt-3 ml-5 lg:text-sm">No Telp 08xx-xxxx-xxx</p>
                 </div>
                 <div class="mt-14 pb-8 text-[6px] lg:text-xs ">

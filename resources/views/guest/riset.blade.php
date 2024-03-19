@@ -117,11 +117,11 @@
             <div class="grid gap-x-5 sm:gap-x-10 gap-y-2 grid-cols-2 mx-5 sm:mx-10 my-2 ">
                 <div class="w-full" data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
-                    <a href="#">
+                    <a href="/guest/Detail Riset">
                         <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
                     </a>
                     <div class="py-3">
-                        <a href="#">
+                        <a href="/guest/Detail Riset">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
                         </a>
                         <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
@@ -132,11 +132,11 @@
                 <div class="w-full "
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
-                    <a href="#">
+                    <a href="/guest/Detail Riset">
                         <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
                     </a>
                     <div class="py-3">
-                        <a href="#">
+                        <a href="/guest/Detail Riset">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
                         </a>
                         <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
@@ -147,11 +147,11 @@
                 <div class="w-full "
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
-                    <a href="#">
+                    <a href="/guest/Detail Riset">
                         <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
                     </a>
                     <div class="py-3">
-                        <a href="#">
+                        <a href="/guest/Detail Riset">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
                         </a>
                         <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
@@ -162,11 +162,11 @@
                 <div class="w-full "
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
-                    <a href="#">
+                    <a href="/guest/Detail Riset">
                         <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
                     </a>
                     <div class="py-3">
-                        <a href="#">
+                        <a href="/guest/Detail Riset">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
                         </a>
                         <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
@@ -184,40 +184,40 @@
     <!-- Content End -->
 
     <!-- Footer Start -->
-    <footer class="bg-fot text-black mt-10" data-aos="fade-up">
+    <footer class="bg-fot text-black mt-20" data-aos="fade-up">
         <div class="container max-w-full pt-2">
             <div class="grid grid-cols-4 lg:grid-cols-5 gap-3">
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class=" font-bold">Tentang Kami</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12" >
                   <p class="font-bold ">Konsultasi</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold">Riset</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold ">Publikasi</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold ">Akademi</p>
@@ -232,10 +232,10 @@
             <div class="mt-8 mx-2 sm:mx-12  lg:mt-12 lg:ml-12">
                 <p class="font-bold text-base lg:text-2xl">Link Reference</p>
                 <div class="flex">
-                    <a href="#"><i class="fab fa-facebook mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-instagram mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-twitter mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-youtube lg:text-xl"></i></a>
+                    <a href="https://www.facebook.com/NASA?mibextid=ZbWKwL"><i class="fab fa-facebook mr-2 lg:text-xl"></i></a>
+                    <a href="https://www.instagram.com/nasa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram mr-2 lg:text-xl"></i></a>
+                    <a href="https://x.com/NASA?s=20"><i class="fab fa-twitter mr-2 lg:text-xl"></i></a>
+                    <a href="https://www.youtube.com/@NASA"><i class="fab fa-youtube lg:text-xl"></i></a>
                     <p class="text-[8px] font-sans mt-3 ml-5 lg:text-sm">No Telp 08xx-xxxx-xxx</p>
                 </div>
                 <div class="mt-14 pb-8 text-[6px] lg:text-xs ">

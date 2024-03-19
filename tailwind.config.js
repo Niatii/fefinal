@@ -9,6 +9,7 @@ export default {
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
       serif: ['inknut antiqua', 'sans-serif'],
+      thin: ['poppins'],
     },
     extend: {
       colors: {
@@ -17,7 +18,9 @@ export default {
         'latar': '#C2D2DA',
         'grad' : '#6591B9',
         'gradb' : '#000347',
-        'wjudul' : "#06354B"
+        'wjudul' : "#06354B",
+        'wform' : "#D9D9D9",
+        'wform1' : '#CEE0F0'
         
       },
     },

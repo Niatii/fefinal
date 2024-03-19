@@ -109,11 +109,11 @@
         <div class="bg-white w-full py-2">
            <div class="grid grid-cols-3 gap-4 mx-5 sm:mx-10 my-2">
                 <div class="col-span-2">
-                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-right">
+                    <a href="/guest/Detail Berita"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-right"></a>
                 </div>
                 <div class="gap-y-2">
-                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-down">
-                    <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2" data-aos="fade-up">
+                    <a href="#"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-down"></a>
+                    <a href="#"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2" data-aos="fade-up"></a>
                 </div>
            </div>
            <div class="mx-5 sm:mx-10 mt-4">
@@ -121,16 +121,17 @@
                     <h2 class="text-base md:text-2xl">Sub News</h2>
                     <hr class="border-t-1 border-black my-1">
                 </div>
+
                 <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
                 data-aos-offset="150"
                 data-aos-easing="ease-in-sine">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
+                        <a href="/guest/Detail Berita">
                             <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                            <a href="/guest/Detail Berita" class="text-[10px] overflow-hidden md:text-xs h-16 ">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
-                            </p>
+                            </a>
                         </a>
                     </div>
                 </div>
@@ -140,11 +141,11 @@
                 data-aos-easing="ease-in-sine">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
+                        <a href="/guest/Detail Berita">
                             <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                            <a href="/guest/Detail Berita" class="text-[10px] overflow-hidden md:text-xs h-16 ">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
-                            </p>
+                            </a>
                         </a>
                     </div>
                 </div>
@@ -154,11 +155,11 @@
                 data-aos-easing="ease-in-sine">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
+                        <a href="/guest/Detail Berita">
                             <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                            <a href="/guest/Detail Berita" class="text-[10px] overflow-hidden md:text-xs h-16 ">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
-                            </p>
+                            </a>
                         </a>
                     </div>
                 </div>
@@ -168,11 +169,11 @@
                 data-aos-easing="ease-in-sine">
                 <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
                     <div class="card-body w-1/2 sm:w-8/12 lg:py-6">
-                        <a href="#">
+                        <a href="/guest/Detail Berita">
                             <h2 class="card-title text-xs md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <p class="text-[10px] overflow-hidden md:text-xs h-16">
+                            <a href="/guest/Detail Berita" class="text-[10px] overflow-hidden md:text-xs h-16 ">
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
-                            </p>
+                            </a>
                         </a>
                     </div>
                 </div>
@@ -183,40 +184,40 @@
     <!-- Content End -->
 
     <!-- Footer Start -->
-    <footer class="bg-fot text-black mt-10" data-aos="fade-up">
+    <footer class="bg-fot text-black mt-20" data-aos="fade-up">
         <div class="container max-w-full pt-2">
             <div class="grid grid-cols-4 lg:grid-cols-5 gap-3">
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class=" font-bold">Tentang Kami</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Tentang Kami" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12" >
                   <p class="font-bold ">Konsultasi</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Konsultasi" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold">Riset</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Riset" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold ">Publikasi</p>
                   <hr class="border-t-2 border-black my-1">
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
-                  <p><a href="#" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guest/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
+                  <p><a href="/guset/Detail Publikasi" class="hover:text-sky-600">Link</a></p>
                 </div>
                 <div class="mx-2 text-xs sm:text-base sm:mx-12 lg:mr-12 w-8/12">
                   <p class="font-bold ">Akademi</p>
@@ -231,10 +232,10 @@
             <div class="mt-8 mx-2 sm:mx-12  lg:mt-12 lg:ml-12">
                 <p class="font-bold text-base lg:text-2xl">Link Reference</p>
                 <div class="flex">
-                    <a href="#"><i class="fab fa-facebook mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-instagram mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-twitter mr-2 lg:text-xl"></i></a>
-                    <a href="#"><i class="fab fa-youtube lg:text-xl"></i></a>
+                    <a href="https://www.facebook.com/NASA?mibextid=ZbWKwL"><i class="fab fa-facebook mr-2 lg:text-xl"></i></a>
+                    <a href="https://www.instagram.com/nasa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram mr-2 lg:text-xl"></i></a>
+                    <a href="https://x.com/NASA?s=20"><i class="fab fa-twitter mr-2 lg:text-xl"></i></a>
+                    <a href="https://www.youtube.com/@NASA"><i class="fab fa-youtube lg:text-xl"></i></a>
                     <p class="text-[8px] font-sans mt-3 ml-5 lg:text-sm">No Telp 08xx-xxxx-xxx</p>
                 </div>
                 <div class="mt-14 pb-8 text-[6px] lg:text-xs ">
@@ -245,7 +246,6 @@
         </div>
     </footer>
     <!-- Footer End -->
-
 
 
 
