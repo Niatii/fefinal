@@ -16,10 +16,12 @@ hamburger.addEventListener("click", function () {
 const dropdownuser = document.querySelector("#dropdownuser");
 user.addEventListener("mouseover", function () {
     dropdownuser.classList.remove("hidden");
+    dropdownakademi.classList.add("hidden");
 });
 
 user.addEventListener("click", function () {
     dropdownuser.classList.remove("hidden");
+    dropdownakademi.classList.add("hidden");
 });
 
 dropdownuser.addEventListener("mouseleave", function(){
@@ -82,13 +84,17 @@ const akademi = document.querySelector("#akademi");
 
 akademi.addEventListener("mouseover", function () {
     dropdownakademi.classList.remove("hidden");
+    dropdownuser.classList.add("hidden");
+});
+
+akademi.addEventListener("click", function () {
+    dropdownakademi.classList.remove("hidden");
+    dropdownuser.classList.add("hidden");
 });
 
 dropdownakademi.addEventListener("mouseleave", function(){
     dropdownuser.classList.add("hidden");
 });
-
-
 
 // berita
 const berita = document.querySelector("#berita");

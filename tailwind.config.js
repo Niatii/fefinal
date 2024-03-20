@@ -9,7 +9,7 @@ export default {
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
       serif: ['inknut antiqua', 'sans-serif'],
-      thin: ['poppins'],
+      thin: ['poppins', 'sans-serif'],
     },
     extend: {
       colors: {

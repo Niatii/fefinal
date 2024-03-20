@@ -78,6 +78,7 @@ Route::prefix('user')->group(function () {
     Route::get('/Kegiatan', function () {
         return view('user/kegiatan');
     });
+
     Route::get('/Detail Kegiatan', function () {
         return view('user/kegiatan_detail');
     });
@@ -125,6 +126,18 @@ Route::prefix('guest')->group(function () {
     });
     Route::get('/Detail Publikasi', function () {
         return view('guest/publikasi_detail');
+    });
+
+    Route::get('/Akademi', function () {
+        return view('guest/akademi');
+    });
+
+    Route::get('/Pelatihan', function () {
+        return view('guest/pelatihan');
+    });
+
+    Route::get('/Kegiatan', function () {
+        return view('guest/kegiatan');
     });
 
     Route::get('/Berita', function () {
