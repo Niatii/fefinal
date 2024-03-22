@@ -32,9 +32,7 @@
 
 
     <!-- Content Start -->
-    <div class="fixed right-0 items-center bottom-80 z-10">
-    <a href="/admin/tentang kami" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8">Tambah</a>
-    </div>
+    
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
             <div class="px-5 pt-20 md:px-20 w-full ">
@@ -53,6 +51,11 @@
                         </div>
                         <div class="border border-black my-5 rounded-lg">
                         <textarea id="informasi" rows="15" class="block w-full  text-sm border-none focus:ring-primary-500 focus:border-primary-500 overflow-y-scroll" placeholder="Edit Informasi..."></textarea>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <a href="/admin/tentang kami" type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
+                            rounded-md">Tambah</a>
                         </div>
                     </form>
                 </div>

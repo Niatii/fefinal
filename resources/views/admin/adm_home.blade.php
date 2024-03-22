@@ -44,9 +44,9 @@
             </div>
         </form>
         <div  class="grid mx-10 my-12 gap-x-8 gap-y-8 md:grid-cols-3">
-            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-right">
             <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-up">
-            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-left">
+            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-up">
+            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-up">
         </div>
         <div class="bg-white">
             <p class="text-center font-serif py-10 text-lg md:text-2xl lg:text-4xl">Selamat Datang di Web Tax Digital</p>

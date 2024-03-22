@@ -3,10 +3,9 @@
         <div class="container">
             <div class="bg-nav w-full absolute top-0 left-0 justify-between flex">
                 <div class="flex">
-                    <a href="#"><img src="{{ asset('storage/properti/1.jpg') }}" alt="gambar properti"
+                    <a href="/"><img src="{{ asset('storage/properti/logo.png') }}" alt="gambar properti"
                     class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:mx-4"></a>
-                    <a href="#"><img src="{{ asset('storage/properti/1.jpg') }}" alt="gambar properti"
-                    class="w-8 my-2 mx-1 rounded-full sm:w-10 sm:ml-3"></a>
+                    <p class="font-thin text-xs mx-2 mt-4 text-white sm:text-base">Digital Tax Consultation</p>
                 </div>
                 <div class="relative text-black">
                     <a href="/login" id="user">
@@ -61,9 +60,9 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="my-3 mx-2">
-                    <img src="{{ asset('storage/properti/1.jpg') }}" alt="gambar properti" class="w-8 rounded-lg  sm:w-10 sm:ml-10 sm:mr-2 md:ml-24">
-                </div>   
+                <div class="my-6 mx-2">
+                    <p class="w-8 rounded-lg  sm:w-10 sm:ml-10 sm:mr-2 md:ml-24">
+                </div>    
             </div>
             <!-- navbar end -->
         </div>

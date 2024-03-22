@@ -35,8 +35,8 @@
                     <a href="/guest/Detail Berita"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-right"></a>
                 </div>
                 <div class="gap-y-2">
-                    <a href="#"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-down"></a>
-                    <a href="#"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2" data-aos="fade-up"></a>
+                    <a href="/guest/Detail Berita"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-down"></a>
+                    <a href="/guest/Detail Berita"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2" data-aos="fade-up"></a>
                 </div>
            </div>
            <div class="mx-5 sm:mx-10 mt-4">
