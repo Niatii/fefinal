@@ -29,7 +29,7 @@
     
     <!-- Content Start -->
     <section  class="pt-36 sm:pt-40 mb-12 mx-8">
-        <div class="bg-white w-full py-2">
+        <div class="bg-white w-full pt-2 pb-20">
            <div class="grid grid-cols-3 gap-4 mx-5 sm:mx-10 my-2">
                 <div class="col-span-2">
                     <a href="/guest/Detail Berita"><img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-right"></a>
@@ -45,61 +45,87 @@
                     <hr class="border-t-1 border-black my-1">
                 </div>
 
-                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
-                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                    <div class="card-body w-7/12 sm:w-8/12 lg:py-6">
-                        <a href="/guest/Detail Berita">
-                            <h2 class="card-title text-[10px] md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <a href="/guest/Detail Berita" class="text-[8px] overflow-hidden md:text-xs h-12 md:h-16">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                <div class="pb-5 mt-3 items-center" data-aos="fade-right"
+                    data-aos-offset="150"
+                    data-aos-easing="ease-in-sine">
+                    <div class="w-full grid grid-cols-3">
+                        <div class="flex items-center">
+                            <a href="/guest/Detail Berita">
+                                <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                             </a>
-                        </a>
+                        </div>
+                        <div class="ml-4 md:ml-8 h-16 sm:px-2 md:h-44 md:pt-5 overflow-hidden col-span-2 ">
+                            <a href="/guest/Detail Berita">
+                                <h5 class="font-bold mt-2 sm:mb-2 text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 hover:text-sky-600">Judul Berita</h5>
+                            </a>
+                            <a href="/guest/Detail Berita">
+                                <p class="text-[10px] md:text-base overflow-hidden h-[34px] sm:h-12 lg:h-[72px] hover:text-sky-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
-                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                    <div class="card-body w-7/12 sm:w-8/12 lg:py-6">
-                        <a href="/guest/Detail Berita">
-                            <h2 class="card-title text-[10px] md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <a href="/guest/Detail Berita" class="text-[8px] overflow-hidden md:text-xs h-12 md:h-16">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                <div class="pb-5 mt-3 items-center" data-aos="fade-right"
+                    data-aos-offset="150"
+                    data-aos-easing="ease-in-sine">
+                    <div class="w-full grid grid-cols-3">
+                        <div class="flex items-center">
+                            <a href="/guest/Detail Berita">
+                                <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                             </a>
-                        </a>
+                        </div>
+                        <div class="ml-4 md:ml-8 h-16 sm:px-2 md:h-44 md:pt-5 overflow-hidden col-span-2 ">
+                            <a href="/guest/Detail Berita">
+                                <h5 class="font-bold mt-2 sm:mb-2 text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 hover:text-sky-600">Judul Berita</h5>
+                            </a>
+                            <a href="/guest/Detail Berita">
+                                <p class="text-[10px] md:text-base overflow-hidden h-[34px] sm:h-12 lg:h-[72px] hover:text-sky-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
-                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                    <div class="card-body w-7/12 sm:w-8/12 lg:py-6">
-                        <a href="/guest/Detail Berita">
-                            <h2 class="card-title text-[10px] md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <a href="/guest/Detail Berita" class="text-[8px] overflow-hidden md:text-xs h-12 md:h-16">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                <div class="pb-5 mt-3 items-center" data-aos="fade-right"
+                    data-aos-offset="150"
+                    data-aos-easing="ease-in-sine">
+                    <div class="w-full grid grid-cols-3">
+                        <div class="flex items-center">
+                            <a href="/guest/Detail Berita">
+                                <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                             </a>
-                        </a>
+                        </div>
+                        <div class="ml-4 md:ml-8 h-16 sm:px-2 md:h-44 md:pt-5 overflow-hidden col-span-2 ">
+                            <a href="/guest/Detail Berita">
+                                <h5 class="font-bold mt-2 sm:mb-2 text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 hover:text-sky-600">Judul Berita</h5>
+                            </a>
+                            <a href="/guest/Detail Berita">
+                                <p class="text-[10px] md:text-base overflow-hidden h-[34px] sm:h-12 lg:h-[72px] hover:text-sky-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card card-side sm:my-4 lg:my-8 " data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
-                <figure><img src="{{ asset('storage/properti/2.jpg') }}" alt="tentang kami" class="w-32 sm:w-64 md:w-72 sm:ml-5 hover:brightness-50"/></figure>
-                    <div class="card-body w-7/12 sm:w-8/12 lg:py-6">
-                        <a href="/guest/Detail Berita">
-                            <h2 class="card-title text-[10px] md:text-lg hover:text-sky-600">Title Foto</h2>
-                            <a href="/guest/Detail Berita" class="text-[8px] overflow-hidden md:text-xs h-12 md:h-16">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae excepturi sapiente nam cumque molestias delectus beatae, incidunt officia eos accusamus, quibusdam cum. Placeat porro ex minima magni quo! Temporibus quasi aspernatur autem voluptate omnis recusandae reprehenderit dolorum nostrum! Qui amet aliquid porro natus sint. Nam optio consequuntur perferendis labore voluptas illo, et hic necessitatibus vitae sunt facere aperiam iste corrupti.
+                <div class="pb-5 mt-3 items-center" data-aos="fade-right"
+                    data-aos-offset="150"
+                    data-aos-easing="ease-in-sine">
+                    <div class="w-full grid grid-cols-3">
+                        <div class="flex items-center">
+                            <a href="/guest/Detail Berita">
+                                <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                             </a>
-                        </a>
+                        </div>
+                        <div class="ml-4 md:ml-8 h-16 sm:px-2 md:h-44 md:pt-5 overflow-hidden col-span-2 ">
+                            <a href="/guest/Detail Berita">
+                                <h5 class="font-bold mt-2 sm:mb-2 text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 hover:text-sky-600">Judul Berita</h5>
+                            </a>
+                            <a href="/guest/Detail Berita">
+                                <p class="text-[10px] md:text-base overflow-hidden h-[34px] sm:h-12 lg:h-[72px] hover:text-sky-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+                
             </div>
         </div>
     </section>
