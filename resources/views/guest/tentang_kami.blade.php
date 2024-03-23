@@ -42,7 +42,7 @@
                 data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
-                        <a href="/admin/tentang kami/detail">
+                        <a href="/guest/Detail Tentang Kami">
                             <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
@@ -50,7 +50,7 @@
                         <h5 class="font-bold text-[11px] md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 ">Judul Tentang Kami</h5>
                         <p class="text-[9px] md:text-base overflow-hidden h-[40px] sm:h-10 md:h-12 lg:h-[72px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
                         <hr class="border-t-1 border-black mt-1">
-                        <a href="/admin/tentang kami/detail" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
+                        <a href="/guest/Detail Tentang Kami" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
                             selengkapnya...
                         </a>
                     </div>
@@ -62,7 +62,7 @@
                 data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
-                        <a href="/admin/tentang kami/detail">
+                        <a href="/guest/Detail Tentang Kami">
                             <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
@@ -70,7 +70,7 @@
                         <h5 class="font-bold text-[11px] md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 ">Judul Tentang Kami</h5>
                         <p class="text-[9px] md:text-base overflow-hidden h-[40px] sm:h-10 md:h-12 lg:h-[72px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
                         <hr class="border-t-1 border-black mt-1">
-                        <a href="/admin/tentang kami/detail" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
+                        <a href="/guest/Detail Tentang Kami" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
                             selengkapnya...
                         </a>
                     </div>
@@ -82,7 +82,7 @@
                 data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
-                        <a href="/admin/tentang kami/detail">
+                        <a href="/guest/Detail Tentang Kami">
                             <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
@@ -90,7 +90,7 @@
                         <h5 class="font-bold text-[11px] md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 ">Judul Tentang Kami</h5>
                         <p class="text-[9px] md:text-base overflow-hidden h-[40px] sm:h-10 md:h-12 lg:h-[72px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
                         <hr class="border-t-1 border-black mt-1">
-                        <a href="/admin/tentang kami/detail" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
+                        <a href="/guest/Detail Tentang Kami" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
                             selengkapnya...
                         </a>
                     </div>
@@ -102,7 +102,7 @@
                 data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
-                        <a href="/admin/tentang kami/detail">
+                        <a href="/guest/Detail Tentang Kami">
                             <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
@@ -110,7 +110,7 @@
                         <h5 class="font-bold text-[11px] md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10 ">Judul Tentang Kami</h5>
                         <p class="text-[9px] md:text-base overflow-hidden h-[40px] sm:h-10 md:h-12 lg:h-[72px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. At repellendus corrupti nobis perferendis eos officiis iusto rem iure ad quis numquam natus error nesciunt, deserunt expedita nam veniam nihil nemo voluptatibus, recusandae quia eaque, laudantium aperiam? Delectus dicta repudiandae rem provident optio obcaecati nulla, necessitatibus, adipisci fuga perspiciatis quibusdam. Voluptates, minus facere eius quibusdam officia reprehenderit alias voluptatum quidem autem dicta iusto? Quos atque reprehenderit itaque officia aliquid enim. Sit, itaque repellat. Natus nobis accusantium doloribus tempora deleniti vitae quidem, nihil est aperiam aliquid, officiis repellendus debitis quos quae deserunt similique reiciendis molestiae ipsa odit quas, corporis consectetur dolores. Voluptate?</p>
                         <hr class="border-t-1 border-black mt-1">
-                        <a href="/admin/tentang kami/detail" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
+                        <a href="/guest/Detail Tentang Kami" class="text-[8px] md:text-xs lg:text-base hover:text-sky-600">
                             selengkapnya...
                         </a>
                     </div>
