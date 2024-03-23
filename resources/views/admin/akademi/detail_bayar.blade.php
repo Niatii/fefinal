@@ -70,7 +70,7 @@
                     <div class="box-border h-36 w-32 md:w-52 md:h-64 p-4 border border-black"></div>
                 </div>
                 <div class="flex justify-center my-10">
-                    <a href="" class="text-xs md:text-base bg-nav py-1 px-5 md:px-9 text-white rounded-full hover:bg-gradb focus:bg-gradb transition duration-700">Konfirmasi</a>
+                    <a href="/admin/akademi" class="text-xs md:text-base bg-nav py-1 px-5 md:px-9 text-white rounded-full hover:bg-gradb focus:bg-gradb transition duration-700">Konfirmasi</a>
                 </div>
                 
             </div>
