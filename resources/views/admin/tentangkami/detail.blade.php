@@ -24,7 +24,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black pb-12">
+<body class="bg-latar text-black min-h-screen">
     
     <!-- header -->
    @include('components.headeradmin')
@@ -32,9 +32,8 @@
 
 
     <!-- Content Start -->
-    
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
-        <div class="bg-white w-full rounded-md pb-12">
+        <div class="bg-white w-full rounded-md mb-12 pb-12">
             <div class="flex mt-6 gap-x-4 justify-end mx-5 md:px-20">
                 <button class="text-xs bg-gradb text-white py-1 px-3 rounded-md md:text-base hover:bg-latar focus:bg-latar
                 hover:text-black focus:text-black transition duration-700">Hapus</button>
@@ -77,16 +76,10 @@
                     </p>
                 </div>
             </div>
-            
-
-            
-        
-    </section>
-       
+        </div>
+    </section>   
     <!-- Content End -->
     
-    
-
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

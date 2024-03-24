@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lupa Password</title>
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -28,7 +28,7 @@
 </head>
 <body>
 <section class="bg-gradient-to-b from-gradb to-grad h-screen">
-  <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+  <div class="flex flex-col items-center justify-center px-6  mx-auto h-screen">
       <div class="w-full md:mt-0 sm:max-w-md xl:p-0" data-aos="zoom-in">
           <div class="px-6 py-20 space-y-4 md:space-y-6 sm:p-8 text-white ">
               <h1 class="text-xl leading-tight tracking-tight md:text-2xl">

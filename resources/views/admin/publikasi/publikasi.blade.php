@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publikasi</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,12 +24,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black pb-12">
+<body class="bg-latar text-black pb-12 min-h-screen">
     
     <!-- header -->
    @include('components.headeradmin')
-
-
 
     <!-- Content Start -->
     <div class="fixed right-0 bottom-28 z-10">
@@ -56,7 +54,7 @@
                         <a href="/admin/publikasi/detail">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Publikasi</h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
@@ -72,7 +70,7 @@
                         <a href="/admin/publikasi/detail">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Publikasi</h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
@@ -88,7 +86,7 @@
                         <a href="/admin/publikasi/detail">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Publikasi</h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
@@ -104,13 +102,11 @@
                         <a href="/admin/publikasi/detail">
                             <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Publikasi</h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
-                </div>
-
-                
+                </div>  
             </div>
         </div>
     </section> 

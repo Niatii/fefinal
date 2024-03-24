@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berita</title>
+    <title>Detail Pembayaran</title>
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -71,12 +71,8 @@
                 </div>
                 <div class="flex justify-center my-10">
                     <a href="/admin/akademi" class="text-xs md:text-base bg-nav py-1 px-5 md:px-9 text-white rounded-full hover:bg-gradb focus:bg-gradb transition duration-700">Konfirmasi</a>
-                </div>
-                
+                </div>  
             </div>
-
-            
-            
         </div>
     </section>
     <!-- Content End -->

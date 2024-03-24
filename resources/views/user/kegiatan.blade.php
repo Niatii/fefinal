@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kegiatan</title>
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -28,18 +28,18 @@
     @include('components.headeruser')
     
     <!-- Content Start -->
-    
     <section  class="pt-36 sm:pt-40 mx-8 flex justify-center">
         <div class="bg-white w-full rounded-md pb-10">
         <div class="mx-3 my-2">
                 <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-6"
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="200"
-                data-aos-offset="0">Kegiatan</h1>
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="200"
+                    data-aos-offset="0">
+                    Kegiatan
+                </h1>
             </div>
 
-            
             <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right"
                 data-aos-offset="150"
                 data-aos-easing="ease-in-sine">
@@ -113,7 +113,6 @@
 
     <!-- header -->
     @include('components.footeruser')
-
 
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

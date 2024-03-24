@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>detail kegiatan</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <title>Detail kegiatan</title>
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,19 +24,15 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black">
+<body class="bg-latar text-black min-h-screen">
     
     <!-- header -->
    @include('components.headeruser')
 
-
-
     <!-- Content Start -->
-    
     </div>
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-40">
-            
             <div class="px-5 pt-5 md:px-20 w-full ">
                 <img class="object-cover w-full rounded-md" src="{{ asset('storage/properti/2.jpg') }}" alt="detail tentang kami"
                 data-aos="fade-zoom-in"
@@ -58,24 +54,22 @@
                         <p>Harga : Rp. 2000.000</p>
                         <p>Slot Peserta : 2000 Peserta</p>
                         <p>Deskripsi Kegiatan, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa expedita, dicta maxime molestias nesciunt assumenda id nemo quidem quae, excepturi delectus labore? Doloribus, recusandae. Soluta praesentium maxime expedita accusantium at voluptatum molestias ipsum numquam amet perspiciatis facilis, et odit illo optio? Amet temporibus, incidunt ullam natus asperiores numquam excepturi suscipit?</p>
-                    </div>
-                    
+                    </div>   
                 </div>
                 <div class="flex justify-end mt-10">
                     <a href="/user/Pembayaran" type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
-                    rounded-md">Daftar Sekarang</a>
+                        rounded-md">
+                        Daftar Sekarang
+                    </a>
                 </div>
             </div> 
-    </section>
+    </section> 
+    <!-- Content End -->
 
     
-       
-    <!-- Content End -->
     <!-- footer -->
    @include('components.footeruser')
     
-    
-
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

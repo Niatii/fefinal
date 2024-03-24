@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>detail Berita</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,15 +24,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black pb-12">
+<body class="bg-latar text-black pb-12 min-h-screen">
     
     <!-- header -->
    @include('components.headeradmin')
 
-
-
     <!-- Content Start -->
-    
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
             <div class="flex mt-6 gap-x-4 justify-end mx-5 md:px-20">
@@ -77,16 +74,10 @@
                     </p>
                 </div>
             </div>
-            
-
-            
-        
+        </div>
     </section>
-       
     <!-- Content End -->
     
-    
-
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

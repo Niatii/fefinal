@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>detail</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <title>Edit Tentang Kami</title>
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,7 +24,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black pb-12">
+<body class="bg-latar text-black pb-12 min-h-screen">
     
     <!-- header -->
    @include('components.headeradmin')
@@ -54,21 +54,17 @@
                         </div>
                         <div class="flex justify-end">
                             <a href="/admin/tentang kami" type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
-                            rounded-md">Simpan</a>
+                                rounded-md">
+                                Simpan
+                            </a>
                         </div>
                     </form>
                 </div>
             </div>
-            
-
-            
-        
-    </section>
-       
+        </div>    
+    </section>  
     <!-- Content End -->
     
-    
-
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

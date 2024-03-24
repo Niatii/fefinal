@@ -24,7 +24,7 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-latar text-black">
+<body class="bg-latar text-black min-h-screen">
     <!-- header -->
     @include('components.headeruser')
     
@@ -36,7 +36,8 @@
                 data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="200"
-                data-aos-offset="0">Konsultasi</h1>
+                data-aos-offset="0">
+                Konsultasi</h1>
             </div>
 
             <div class="grid gap-x-5 sm:gap-x-10 gap-y-2 grid-cols-2 mx-5 sm:mx-10 my-2 ">
@@ -47,9 +48,11 @@
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail Konsultasi">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Konsultasi</h5>
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Konsultasi
+                            </h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
@@ -63,9 +66,11 @@
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail Konsultasi">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Konsultasi</h5>
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Konsultasi
+                            </h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
@@ -79,9 +84,11 @@
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail Konsultasi">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Konsultasi</h5>
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Konsultasi
+                            </h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
@@ -95,9 +102,11 @@
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail Konsultasi">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Konsultasi</h5>
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Konsultasi
+                            </h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
                         </p>
                     </div>
@@ -109,7 +118,6 @@
 
     <!-- footer -->
     @include('components.footeruser')
-
 
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

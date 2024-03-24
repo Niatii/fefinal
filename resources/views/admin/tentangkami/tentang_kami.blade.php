@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,25 +24,27 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black pb-12">
+<body class="bg-latar text-black min-h-screen">
     
     <!-- header -->
    @include('components.headeradmin')
 
-
-
     <!-- Content Start -->
     <div class="fixed right-0 bottom-16 z-10">
     <a href="/admin/tentang kami/tambah" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
-    transition duration-700 focus:bg-gradb">Tambah</a>
+        transition duration-700 focus:bg-gradb">
+        Tambah
+    </a>
     </div>
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
             <h1 class="ml-2 md:ml-8 font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-8"
-            data-aos="fade-zoom-in"
-            data-aos-easing="ease-in-back"
-            data-aos-delay="200"
-            data-aos-offset="0">Tentang Kami</h1>
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="200"
+                data-aos-offset="0">
+                Tentang Kami
+            </h1>
 
             <div class="px-2 md:px-10 items-center mb-8" data-aos="fade-right"
                 data-aos-offset="150"
@@ -123,15 +125,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        
     </section>
-       
     <!-- Content End -->
     
-    
-
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

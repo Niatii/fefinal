@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,7 +24,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black">
+<body class="bg-latar text-black min-h-screen">
     <!-- header -->
    @include('components.headeradmin')
 
@@ -49,12 +49,12 @@
             <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar properti" class="transition-all duration-300 rounded-lg hover:brightness-50" data-aos="fade-up">
         </div>
         <div class="bg-white">
-            <p class="text-center font-serif py-10 text-lg md:text-2xl lg:text-4xl">Selamat Datang di Web Tax Digital</p>
+            <p class="text-center font-serif py-10 text-lg md:text-2xl lg:text-4xl">
+                Selamat Datang di Web Tax Digital
+            </p>
         </div>
     </section>
-    
     <!-- Content End -->
-    
     
     <!-- footer -->
     @include('components.footeradmin')

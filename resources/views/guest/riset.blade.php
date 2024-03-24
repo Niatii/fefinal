@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riset</title>
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,7 +24,7 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-latar text-black">
+<body class="bg-latar text-black min-h-screen">
     <!-- header -->
     @include('components.headerguest')
     
@@ -46,72 +46,76 @@
                     </a>
                     <div class="py-3">
                         <a href="/guest/Detail Riset">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Riset
+                            </h5>
                         </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.</p>
-                        
-                    </div>
-                </div>
-                <div class="w-full "
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom">
-                    <a href="/guest/Detail Riset">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
-                    </a>
-                    <div class="py-3">
-                        <a href="/guest/Detail Riset">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
-                        </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.</p>
-                        
-                    </div>
-                </div>
-                <div class="w-full "
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom">
-                    <a href="/guest/Detail Riset">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
-                    </a>
-                    <div class="py-3">
-                        <a href="/guest/Detail Riset">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
-                        </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.</p>
-                        
-                    </div>
-                </div>
-                <div class="w-full "
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom">
-                    <a href="/guest/Detail Riset">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
-                    </a>
-                    <div class="py-3">
-                        <a href="/guest/Detail Riset">
-                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">Title Riset</h5>
-                        </a>
-                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-16">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.</p>
-                        
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
+                        </p>   
                     </div>
                 </div>
 
+                <div class="w-full "
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                    <a href="/guest/Detail Riset">
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
+                    </a>
+                    <div class="py-3">
+                        <a href="/guest/Detail Riset">
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Riset
+                            </h5>
+                        </a>
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
+                        </p> 
+                    </div>
+                </div>
 
+                <div class="w-full "
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                    <a href="/guest/Detail Riset">
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
+                    </a>
+                    <div class="py-3">
+                        <a href="/guest/Detail Riset">
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Riset
+                            </h5>
+                        </a>
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="w-full "
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                    <a href="/guest/Detail Riset">
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full hover:brightness-50"/>
+                    </a>
+                    <div class="py-3">
+                        <a href="/guest/Detail Riset">
+                            <h5 class="mb-2 text-xs md:text-lg font-bold tracking-tight hover:text-sky-600">
+                                Title Riset
+                            </h5>
+                        </a>
+                        <p class="mb-3 text-[10px] overflow-hidden md:text-xs h-[62px]">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint qui cumque alias natus sed modi nisi, quaerat pariatur autem? Repellendus quas odio eveniet nostrum soluta voluptate excepturi expedita atque magnam voluptatibus nesciunt, praesentium, dicta quibusdam deleniti culpa vitae, velit sed? Voluptatum, odio! Maiores dignissimos a, praesentium delectus, id eius, sit officiis nam placeat illum nihil officia tempore! Qui, commodi.
+                        </p> 
+                    </div>
+                </div>
             </div>
-
-            
         </div>
     </section>
     <!-- Content End -->
 
     <!-- footer -->
     @include('components.footerguest')
-
-
-
 
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

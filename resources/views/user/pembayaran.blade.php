@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Kegiatan</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <title>Pembayaran</title>
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -29,134 +29,92 @@
     <!-- header -->
    @include('components.headeruser')
 
-
-
     <!-- Content Start -->
-   
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md">
-            <div class="px-2 pt-5 md:px-5 w-full ">
-                <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-5"
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="200"
-                data-aos-offset="0">Form Pembayaran</h1>
+            <div class="px-2 pt-5 md:px-5 w-full "
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="200"
+                    data-aos-offset="0">
+                <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-5">
+                    Form Pembayaran
+                </h1>
+
                     <form action="" class="px-5 sm:px-10 md:px-16">
                         <div>
-                            <label for="username" class="text-xs md:text-base ">Nama Pengguna</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <label for="username" class="text-xs md:text-base ">
+                                Nama Pengguna
+                            </label>
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2">
                         </div>
                         <div>
-                            <label for="nama" class="text-xs md:text-base">Nama</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <label for="nama" class="text-xs md:text-base">
+                                Nama
+                            </label>
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
-                            <label for="email" class="text-xs md:text-base">Email</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <label for="email" class="text-xs md:text-base">
+                                Email
+                            </label>
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
-                            <label for="pembayaran" class="text-xs md:text-base">Judul Pembayaran</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <label for="pembayaran" class="text-xs md:text-base">
+                                Judul Pembayaran
+                            </label>
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
-                            <label for="total" class="text-xs md:text-base">Total</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <label for="total" class="text-xs md:text-base">
+                                Total
+                            </label>
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
-                            <label for="bukti" class="text-xs md:text-base my-5">Bukti Bayar</label>
+                            <label for="bukti" class="text-xs md:text-base my-5">
+                                Bukti Bayar
+                            </label>
                             <input class="block w-full  text-xs text-gray-900 border border-black rounded-lg cursor-pointer focus:outline-none" id="small_size" type="file">
                         </div>
                         
                         
                     </form>
-                    <div class="px-5 sm:px-10 md:px-16">
+                    <div class="px-5 sm:px-10 md:px-16 my-2">
                         <div>
-                            <label for="qris" class="text-xs md:text-base my-5">Pilih Qris</label>
-                            <div class="my-5">
-                                <button onclick="showDialog()"
-                            class="text-xs md:text-base border border-gradb rounded-md py-2 px-5 sm:px-10">Bank BNI</button></div>
-                            <div class="my-3">
-                                <button   onclick="showDialog()"
-                            class="text-xs md:text-base border border-gradb rounded-md py-2 px-5 sm:px-10">Bank BNI</button></div>
+                            <label for="qris" class="text-xs md:text-base">
+                                Pilih Qris</label>
+                            <div class="my-2">
+                                <button onclick="showDialog()" class="text-xs md:text-base border border-gradb rounded-md py-2 px-5 sm:px-10">
+                                    Bank BNI
+                                </button>
+                            </div>
+                            <div class="">
+                                <button onclick="showDialog()" class="text-xs md:text-base border border-gradb rounded-md py-2 px-5 sm:px-10">
+                                    Bank BRI
+                                </button>
+                            </div>
                         </div>
                        
                         <div class="flex justify-end my-12">
-                            <button><a href="/admin/kegiatan" type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-8 md:px-12
-                            rounded-full">Kirim</a></button>
+                            <a href="/user/Akademi" type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-8 md:px-12
+                                rounded-full">
+                                Kirim
+                            </a>
                         </div>
                     </div>
-                        
-
-                   
                 </div>
             </div>
-            
-            
-        
     </section>
-   <!--modal start -->
-   <div id="dialog" class="fixed left-0 top-0 bg-black bg-opacity-50 w-screen h-screen z-40 justify-center items-center
-   opacity-0 hidden transition-opacity duration-500" onclick="hideDialog(event)">
-    <div class="bg-white rounded shadow-md p-8 w-1/2 h-[60%] overflow-hidden " >
-        <div class="flex-grow">
-            <h1 class="font-bold text-lg md:text-2xl">Scan The Barcode</h1>
-        </div>
-        <div class="flex justify-center">
-            <img src="{{ asset('storage/properti/barcode.jpg') }}" alt="">
-        </div>
-    </div>
-   </div>
-    <!-- modal end -->
-
-   
-
-       
     <!-- Content End -->
+
+    <!-- modal -->
+    @include('modals.modal-barcode')
+
+    <!-- footer -->
     @include('components.footeruser')
     
-    <!-- javascript -->
-    <script>
-    function showDialog() {
-        let dialog = document.getElementById('dialog');
-        dialog.classList.remove('hidden');
-        dialog.classList.add('flex');
-        dialog.classList.add('opacity-100');
-        setTimeout(() => {
-            dialog.classList.add('opacity-100');
-        }, 20);
-    }
-
-    function hideDialog(event) {
-        // Periksa apakah target klik adalah modal itu sendiri
-        if (event.target.id === 'dialog') {
-            let dialog = document.getElementById('dialog');
-            dialog.classList.add('opacity-0');
-            setTimeout(() => {
-                dialog.classList.add('hidden');
-                dialog.classList.remove('flex');
-            }, 20);
-        }
-    }
-    </script>
-   
-        
-   
-
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

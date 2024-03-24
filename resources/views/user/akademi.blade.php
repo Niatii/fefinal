@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berita</title>
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -32,10 +32,12 @@
         <div class="bg-white w-full rounded-md pb-40">
             <div class="mx-3 my-2">
                 <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-6"
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="200"
-                data-aos-offset="0">Akademi</h1>
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="200"
+                    data-aos-offset="0">
+                    Akademi
+                </h1>
             </div>
 
             <div class="grid gap-x-5 sm:gap-x-10 gap-y-2 grid-cols-2 mx-5 sm:mx-10 mt-2">
@@ -64,6 +66,8 @@
                     </a>
                 </div>
             </div>
+            
+            <!-- riwayat pembayaran -->
             <div class="mx-5 sm:mx-10">
                 <hr class="border-t-2 my-4 md:my-6  border-black">
                 <h1 class="text-nav mb-3 md:my-5 md:text-2xl">Riwayat Pembayaran</h1>
@@ -116,14 +120,9 @@
                                 hover:bg-gradb focus:bg-gradb transition duration-700">Detail</a>
                             </td>
                         </tr>
-                        
                     </tbody>
                 </table>   
             </div>
-            
-
-            
-           
         </div>
     </section>
     <!-- Content End -->

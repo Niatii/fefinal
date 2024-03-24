@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berita</title>
+    <title>Akademi</title>
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -122,14 +122,9 @@
             </div>
             <hr class="border-t-2 my-8 md:my-12  border-black">
             <a href="/admin/akademi/barcode" class="text-xs md:text-base bg-nav text-white py-2 px-8 rounded-full hover:bg-gradb focus:bg-gradb">Edit Bercode Pembayaran</a>
-
-            
-           
         </div>
     </section>
     <!-- Content End -->
-
-
 
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

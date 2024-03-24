@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Berita</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -24,15 +24,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<body class="bg-latar text-black pb-12">
+<body class="bg-latar text-black pb-12 min-h-screen">
     
     <!-- header -->
    @include('components.headeradmin')
 
-
-
     <!-- Content Start -->
-   
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
             <div class="px-5 pt-20 md:px-20 w-full ">
@@ -59,25 +56,18 @@
                                 <option value="berita utama">Berita Utama</option>
                                 <option value="berita sekunder">Berita Sekunder</option>
                             </select>
-
-
                         </div>
 
                         <div class="flex justify-end">
                             <a href="/admin/berita" type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
                             rounded-md">Simpan</a>
                         </div>
-
-                        
+ 
                     </form>
                 </div>
             </div>
-            
-
-            
-        
-    </section>
-       
+        </div>  
+    </section>  
     <!-- Content End -->
     
     

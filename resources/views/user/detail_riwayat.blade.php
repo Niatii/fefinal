@@ -28,14 +28,15 @@
     @include('components.headeruser')
     
     <!-- Content Start -->
-    <section  class="pt-36 sm:pt-40 pb-12 mx-8 flex justify-center">
+    <section class="pt-36 sm:pt-40 pb-12 mx-8 flex justify-center">
         <div class="bg-white w-full rounded-md pb-20">
-            <div class="mx-3 my-2">
-                <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-6"
+            <div class="mx-3 my-2"
                 data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="200"
-                data-aos-offset="0">Detail Riwayat</h1>
+                data-aos-offset="0">
+                <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-6"
+                >Detail Riwayat</h1>
 
                 <div class="mx-4 text-xs md:text-base sm:mx-10 my-3">
                     <label for="username" >Nama Pengguna</label>
@@ -67,19 +68,15 @@
                 </div>
                 <div class="mx-4 text-xs md:text-base sm:mx-10 my-3">
                     <label for="bukti bayar" >Bukti Bayar</label>
-                    <div class="box-border h-36 w-32 md:w-52 md:h-64 p-4 border border-black"></div>
+                    <div class="box-border aspect-4/3 h-36 w-32 md:w-52 md:h-64 p-4 border border-black"></div>
                 </div>
-            </div>
-
-            
-            
+            </div>  
         </div>
     </section>
     <!-- Content End -->
+
     <!-- footer -->
     @include('components.footeruser')
-
-
 
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

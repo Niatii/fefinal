@@ -35,12 +35,12 @@
    
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
-            <div class="px-5 pt-20 md:px-20 w-full ">
-                <img class="object-cover w-8/12 rounded-md" src="{{ asset('storage/properti/2.jpg') }}" alt="detail tentang kami"
+            <div class="px-5 pt-20 md:px-20 w-full "
                 data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="150"
                 data-aos-offset="0">
+                <img class="object-cover w-8/12 rounded-md" src="{{ asset('storage/properti/2.jpg') }}" alt="detail tentang kami">
                 <div class="flex flex-col justify-between py-4 leading-normal">
                     <form action="">
                         <div>
@@ -48,45 +48,27 @@
                         </div>
                         <div>
                             <label for="judul" class="text-xs md:text-base">Judul Pelatihan</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
                             <label for="tanggal" class="text-xs md:text-base">Tanggal Pelatihan</label>
-                            <input type="date" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <input type="date" class="text-xs md:text-base w-full border-black rounded-lg my-2">
                         </div>
                         <div>
                             <label for="lokasi" class="text-xs md:text-base">Lokasi</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
                             <label for="harga" class="text-xs md:text-base">Harga</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
                             <label for="slot" class="text-xs md:text-base">Slot Peserta</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
                             <label for="pelatih" class="text-xs md:text-base">Nama Pelatih</label>
-                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" 
-                            data-aos="fade-right"
-                            data-aos-offset="150"
-                            data-aos-easing="ease-in-sine">
+                            <input type="text" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div class="border border-black my-5 rounded-lg">
                         <textarea id="informasi" rows="15" class="block w-full  text-sm border-none focus:ring-primary-500 focus:border-primary-500 overflow-y-scroll" placeholder="Edit Informasi..."></textarea>
@@ -98,10 +80,7 @@
                     </form>
                 </div>
             </div>
-            
-
-            
-        
+        </div> 
     </section>
        
     <!-- Content End -->

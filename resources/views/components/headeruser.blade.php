@@ -3,22 +3,33 @@
         <div class="container">
             <div class="bg-nav w-full absolute top-0 left-0 justify-between flex">
                 <div class="flex">
-                    <a href="/user/"><img src="{{ asset('storage/properti/logo.png') }}" alt="gambar properti"
-                    class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:mx-4"></a>
-                    <p class="font-thin text-xs mx-2 mt-4 text-white sm:text-base">Digital Tax Consultation</p>
+                    <a href="/user/">
+                        <img src="{{ asset('storage/properti/logo.png') }}" alt="gambar properti"
+                        class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:mx-4">
+                    </a>
+                    <p class="font-thin text-xs mx-2 mt-4 text-white sm:text-base">
+                        Digital Tax Consultation
+                    </p>
                 </div>
                 <div class="relative text-black">
                     <img src="{{ asset('storage/properti/3.jpg') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:ml-10 sm:mr-4 md:ml-24
-                    object-cover h-10"
-                    id="user" >
+                    object-cover h-10" id="user">
                     <ul class="dropdown bg-fot absolute top-0 right-0 mt-10 lg:mt-12 py-3 px-4 mr-5 lg:px-8 shadow-md z-20 hidden
-                    transition duration-700"
-                    id="dropdownuser">
-                        <li class="my-1 lg:my-2"><a href="/user/profil" class="hover:text-sky-600">Profil</a></li>
-                        <li class="my-1 lg:my-2"><a href="/" class="hover:text-sky-600">Logout</a></li>
+                    transition duration-700" id="dropdownuser">
+                        <li class="my-1 lg:my-2">
+                            <a href="/user/profil" class="hover:text-sky-600">
+                                Profil
+                            </a>
+                        </li>
+                        <li class="my-1 lg:my-2">
+                            <a href="/" class="hover:text-sky-600">
+                                Logout
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
+
             <!-- navbar start -->
             <div class="bg-fot w-full absolute mt-12 sm:mt-14 justify-between flex">
                 <div class="flex items-center px-5">
@@ -32,44 +43,67 @@
                         <ul class="block lg:flex">
                             <li class="group">
                                 <a href="/user/" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-5 {{ request()->is('/') ? 'text-sky-600' : 'text-black' }}" id="navhome">Home</a>
+                                    lg:mx-5 {{ request()->is('/') ? 'text-sky-600' : 'text-black' }}" id="navhome">
+                                    Home
+                                </a>
                             </li>
                             <li class="group relative">
                                 <a href="/user/Tentang Kami" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-5 {{ request()->is('user/Tentang Kami', 'user/Detail Tentang Kami') ? 'text-sky-600' : 'text-black' }}" id="tentangkami">Tentang Kami</a>
-                                
+                                    lg:mx-5 
+                                    {{ request()->is('user/Tentang Kami', 'user/Detail Tentang Kami') ? 'text-sky-600' : 'text-black' }}" id="tentangkami">
+                                    Tentang Kami
+                                </a>
                             </li>
                             <li class="group relative ">
                                 <a href="/user/Konsultasi" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-5 {{ request()->is('user/Konsultasi', 'user/Detail Konsultasi') ? 'text-sky-600' : 'text-black' }}" id="konsultasi">Konsultasi</a>
-                                
+                                    lg:mx-5 
+                                    {{ request()->is('user/Konsultasi', 'user/Detail Konsultasi') ? 'text-sky-600' : 'text-black' }}" id="konsultasi">
+                                    Konsultasi
+                                </a>    
                             </li>
                             <li class="group relative">
                                 <a href="/user/Riset" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-5 {{ request()->is('user/Riset', 'user/Detail Riset') ? 'text-sky-600' : 'text-black' }}" id="riset">Riset</a>
-                               
+                                    lg:mx-5 
+                                    {{ request()->is('user/Riset', 'user/Detail Riset') ? 'text-sky-600' : 'text-black' }}" id="riset">
+                                    Riset
+                                </a>
                             </li>
                             <li class="group relative">
                                 <a href="/user/Publikasi" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-6 {{ request()->is('user/Publikasi', 'user/Detail Publikasi') ? 'text-sky-600' : 'text-black' }}" id="publikasi">Publikasi</a>
-                                
+                                    lg:mx-6 
+                                    {{ request()->is('user/Publikasi', 'user/Detail Publikasi') ? 'text-sky-600' : 'text-black' }}" id="publikasi">
+                                    Publikasi
+                                </a>
                             </li>
-                            <li class="group relative text-black ">
+                            <li class="group relative text-black">
                                 <a href="/user/Akademi" class="text-base py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-6 {{ request()->is('user/Akademi', 'user/Pelatihan' , 'user/Kegiatan', 'user/Detail Pelatihan', 'user/Detail Kegiatan',
-                                'user/Pembayaran', 'user/Detail Riwayat') ? 'text-sky-600' : 'text-black' }}" id="akademi">Akademi</a>
+                                    lg:mx-6 
+                                    {{ request()->is('user/Akademi', 'user/Pelatihan' , 'user/Kegiatan', 'user/Detail Pelatihan', 'user/Detail Kegiatan',
+                                    'user/Pembayaran', 'user/Detail Riwayat') ? 'text-sky-600' : 'text-black' }}" id="akademi">
+                                    Akademi
+                                </a>
                                 <ul class="dropdown bg-latar lg:bg-fot hidden lg:absolute py-3 px-8 lg:ml-5 lg:px-5 lg:pt-5 lg:shadow-md lg:rounded-md
-                                w-full transition duration-700"
-                                id="dropdownakademi">
-                                    <li class="my-2"><a href="/user/Pelatihan" class="hover:text-sky-600
-                                    {{ request()->is('user/Pelatihan', 'user/Detail Pelatihan') ? 'text-sky-600' : 'text-black' }}">Pelatihan</a></li>
-                                    <li class="my-2"><a href="/user/Kegiatan" class="hover:text-sky-600 
-                                    {{ request()->is('user/Kegiatan', 'user/Detail Kegiatan') ? 'text-sky-600' : 'text-black' }}">Kegiatan</a></li>
+                                w-full transition duration-700" id="dropdownakademi">
+                                    <li class="my-2">
+                                        <a href="/user/Pelatihan" class="hover:text-sky-600
+                                            {{ request()->is('user/Pelatihan', 'user/Detail Pelatihan') ? 'text-sky-600' : 'text-black' }}">
+                                            Pelatihan
+                                        </a>
+                                    </li>
+                                    <li class="my-2">
+                                        <a href="/user/Kegiatan" class="hover:text-sky-600 
+                                            {{ request()->is('user/Kegiatan', 'user/Detail Kegiatan') ? 'text-sky-600' : 'text-black' }}">
+                                            Kegiatan
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="group relative">
                                 <a href="/user/Berita" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                lg:mx-6 {{ request()->is('user/Berita', 'user/Detail Berita') ? 'text-sky-600' : 'text-black' }}" id="berita">Berita</a>
+                                    lg:mx-6 
+                                    {{ request()->is('user/Berita', 'user/Detail Berita') ? 'text-sky-600' : 'text-black' }}" id="berita">
+                                    Berita
+                                </a>
                             </li>
                         </ul>
                     </nav>

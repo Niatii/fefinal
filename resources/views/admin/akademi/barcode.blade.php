@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barcode</title>
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -46,7 +46,7 @@
                         <input class="block w-full mb-5 text-xs text-gray-900 border border-black rounded-lg cursor-pointer focus:outline-none" id="small_size" type="file">
                     </div>
                     <div class="my-10">
-                        <button class="text-xs md:text-base bg-nav text-white rounded-md py-2 px-5
+                        <button type="submit" class="text-xs md:text-base bg-nav text-white rounded-md py-2 px-5
                         hover:bg-gradb focus:bg-gradb transition duration-700">Tambahkan Barcode</button>
                     </div>
                 </form>
@@ -104,10 +104,7 @@
                     <a href="/admin/akademi" class="text-xs md:text-base text-white bg-gradb py-2 px-3 sm:px-10 rounded-md hover:bg-nav focus:bg-nav
                     transition duration-700">Kembali ke Halaman Akademi</a>
                 </div>
-               
-            </div>  
-            
-            
+            </div>    
         </div>
     </section>
     <!-- Content End -->

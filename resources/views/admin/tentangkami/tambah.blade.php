@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>detail</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <title>Tambah Tentang Kami</title>
+    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
 
     @vite('resources/css/app.css')
 
@@ -29,10 +29,7 @@
     <!-- header -->
    @include('components.headeradmin')
 
-
-
     <!-- Content Start -->
-    
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
             <div class="px-5 pt-20 md:px-20 w-full ">
@@ -55,19 +52,16 @@
 
                         <div class="flex justify-end">
                             <a href="/admin/tentang kami" type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
-                            rounded-md">Tambah</a>
+                                rounded-md">
+                                Tambah
+                            </a>
                         </div>
                     </form>
                 </div>
             </div>
-            
-
-            
-        
+        </div>
     </section>
-       
     <!-- Content End -->
-    
     
 
     <!-- javascript -->
