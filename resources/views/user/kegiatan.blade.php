@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,32 +24,27 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body class="bg-latar text-black min-h-screen">
     <!-- header -->
     @include('components.headeruser')
-    
+
     <!-- Content Start -->
-    <section  class="pt-36 sm:pt-40 mx-8 flex justify-center">
+    <section class="pt-36 sm:pt-40 mx-8 flex justify-center">
         <div class="bg-white w-full rounded-md pb-10">
-        <div class="mx-3 my-2">
-                <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-6"
-                    data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="200"
-                    data-aos-offset="0">
+            <div class="mx-3 my-2">
+                <h1 class="font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-6 sm:mx-6" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
                     Kegiatan
                 </h1>
             </div>
 
-            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
+            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
-                    <a href="/user/Detail Kegiatan" class="flex items-center">
-                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />    
+                    <a href="/user/Detail_Kegiatan" class="flex items-center">
+                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                     </a>
                     <div class="mx-2 h-20 sm:px-2 sm:h-40 md:h-48  sm:pt-5 overflow-hidden col-span-2 ">
-                        <a href="/user/Detail Kegiatan"> 
+                        <a href="/user/Detail_Kegiatan">
                             <h5 class="font-bold text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10">Judul Kegiatan</h5>
                         </a>
                         <p class="my-1 text-[9px] md:text-base">Harga</p>
@@ -57,15 +53,13 @@
                 </div>
             </div>
 
-            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
+            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
-                    <a href="/user/Detail Kegiatan" class="flex items-center">
-                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />    
+                    <a href="/user/Detail_Kegiatan" class="flex items-center">
+                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                     </a>
                     <div class="mx-2 h-20 sm:px-2 sm:h-40 md:h-48  sm:pt-5 overflow-hidden col-span-2 ">
-                        <a href="/user/Detail Kegiatan"> 
+                        <a href="/user/Detail_Kegiatan">
                             <h5 class="font-bold text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10">Judul Kegiatan</h5>
                         </a>
                         <p class="my-1 text-[9px] md:text-base">Harga</p>
@@ -74,15 +68,13 @@
                 </div>
             </div>
 
-            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
+            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
-                    <a href="/user/Detail Kegiatan" class="flex items-center">
-                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />    
+                    <a href="/user/Detail_Kegiatan" class="flex items-center">
+                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                     </a>
                     <div class="mx-2 h-20 sm:px-2 sm:h-40 md:h-48  sm:pt-5 overflow-hidden col-span-2 ">
-                        <a href="/user/Detail Kegiatan"> 
+                        <a href="/user/Detail_Kegiatan">
                             <h5 class="font-bold text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10">Judul Kegiatan</h5>
                         </a>
                         <p class="my-1 text-[9px] md:text-base">Harga</p>
@@ -91,15 +83,13 @@
                 </div>
             </div>
 
-            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-easing="ease-in-sine">
+            <div class="px-2 md:px-10 items-center my-4" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
                 <div class="w-full grid grid-cols-3">
-                    <a href="/user/Detail Kegiatan" class="flex items-center">
-                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />    
+                    <a href="/user/Detail_Kegiatan" class="flex items-center">
+                        <img class="w-full hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                     </a>
                     <div class="mx-2 h-20 sm:px-2 sm:h-40 md:h-48  sm:pt-5 overflow-hidden col-span-2 ">
-                        <a href="/user/Detail Kegiatan"> 
+                        <a href="/user/Detail_Kegiatan">
                             <h5 class="font-bold text-xs md:text-lg lg:text-2xl overflow-hidden h-4 md:h-10">Judul Kegiatan</h5>
                         </a>
                         <p class="my-1 text-[9px] md:text-base">Harga</p>
@@ -117,8 +107,9 @@
     <!-- javascript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
     @vite('resources/js/app.js')
 </body>
+
 </html>
