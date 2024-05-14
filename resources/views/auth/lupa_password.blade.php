@@ -35,7 +35,7 @@
                   TAX-D
               </h1>
               <p>Selamat Datang di <br>
-              Tax Digital
+              Penyedia Jasa Aplikasi Perpajakan
               </p>
               <hr>
               <h1 class="text-center text-2xl leading-tight tracking-tight md:text-4xl font-thin font-bold py-6">Lupa Kata Sandi</h1>
@@ -60,6 +60,6 @@
     <script>
     AOS.init();
     </script>
-    @vite('resources/js/app.js')
+    <!-- @vite('resources/js/app.js') -->
 </body>
 </html>

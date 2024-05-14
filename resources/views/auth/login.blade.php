@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
-    <!-- @vite(['resources/css/app.css','resources/js/app.js']) -->
-
     @vite('resources/css/app.css')
 
     <!-- font Family -->
@@ -37,7 +35,7 @@
                         TAX-D
                     </h1>
                     <p>Selamat Datang di <br>
-                        Tax Digital
+                        Penyedia Jasa Aplikasi Perpajakan
                     </p>
                     <hr>
                     <h1 class="text-center text-2xl leading-tight tracking-tight md:text-4xl font-thin font-bold">Masuk</h1>
@@ -79,7 +77,7 @@
     <script>
         AOS.init();
     </script>
-    @vite('resources/js/app.js')
+    <!-- @vite('resources/js/app.js') -->
 </body>
 
 </html>
