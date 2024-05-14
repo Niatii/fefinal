@@ -32,7 +32,7 @@
       <div class="w-full md:mt-0 sm:max-w-md xl:p-0" data-aos="zoom-in">
           <div class="px-6 py-20 space-y-4 md:space-y-6 sm:p-8 text-white ">
               <h1 class="text-xl leading-tight tracking-tight md:text-2xl">
-                  TAX-D
+                  PJAP
               </h1>
               <p>Selamat Datang di <br>
               Penyedia Jasa Aplikasi Perpajakan
