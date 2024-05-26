@@ -21,9 +21,9 @@
     </div>
     <!-- tombol tambah end -->
 
-    <section  class="pt-36 mx-2 sm:mx-8 sm:pt-40 flex justify-center relative">
+    <section  class="pt-36 mx-2 sm:mx-8 sm:pt-40 ">
         <div class="bg-white w-full rounded-md pb-12">
-            <h1 class="ml-2 md:ml-8 font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-8"
+            <h1 class="ml-2 pt-2 sm:pt-6 md:ml-8 font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-8"
                 data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="200"
