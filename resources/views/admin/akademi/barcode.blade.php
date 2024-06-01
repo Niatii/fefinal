@@ -57,7 +57,56 @@
                 data-aos-delay="200"
                 data-aos-offset="0">Tambah Barcode</h1>
 
-                <div class=" relative overflow-x-auto mx-5 sm:mx-16">
+                <!-- edited -->
+                <div class="relative overflow-x-auto shadow-md sm:rounded-lg x-5 sm:mx-16">
+                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
+                        <thead class="text-xs uppercase bg-gray-500 text-gray-100">
+                            <tr>
+                                <th scope="col" class="px-6 py-3">
+                                    Nama Bank
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Nama File Barcode
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd:bg-sky-100 even:bg-gray-50 border-b border-gray-500">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    BNI
+                                </th>
+                                <td class="px-6 py-4">
+                                    bni.jpg
+                                </td>
+                               
+                                <td class="px-6 py-4">
+                                    <button class="font-medium text-white p-1 px-2 sm:px-4 rounded-md bg-nav 
+                                hover:bg-gradb focus:bg-gradb transition duration-700 ">Hapus</button>
+                                </td>
+                            </tr>
+                            <tr class="odd:bg-gray-300 even:bg-gray-50 border-b border-gray-700">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    BRI
+                                </th>
+                                <td class="px-6 py-4">
+                                    bri.jpg
+                                </td>
+                               
+                                <td class="px-6 py-4">
+                                    <button class="font-medium text-white p-1 px-2 sm:px-4 rounded-md bg-nav 
+                                hover:bg-gradb focus:bg-gradb transition duration-700">Hapus</button>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <!-- edited -->
+
+                <!-- <div class=" relative overflow-x-auto mx-5 sm:mx-16">
                 <table class="w-full text-xs sm:text-base text-left border-collapse border border-slate-500 ">
                     <thead class="text-xs text-center sm:text-base">
                         <tr>
@@ -73,7 +122,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- data 1 -->
+                        
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                             <td class="px-2 py-4 border border-slate-500">
                                 BRI
@@ -87,7 +136,7 @@
                             </td>
                         </tr>
 
-                        <!-- data 2 -->
+                        
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                             <td class="px-2 py-4 border border-slate-500">
                                 BNI
@@ -102,7 +151,7 @@
                         </tr>
                     </tbody>
                 </table>
-                </div>
+                </div> -->
                 <div class="my-24 sm:mx-10">
                     <a href="/admin/akademi" class="text-xs md:text-base text-white bg-gradb py-2 px-3 sm:px-10 rounded-md hover:bg-nav focus:bg-nav
                     transition duration-700">Kembali ke Halaman Akademi</a>

@@ -157,6 +157,10 @@ Route::prefix('admin')->group(function () {
         return view('admin/adm_home');
     });
 
+    Route::get('/profil', function () {
+        return view('admin/profil');
+    });
+
     Route::prefix('tentangkami')->group(function () {
         Route::get('/', function () {
             return view('admin/tentangkami/tentang_kami');

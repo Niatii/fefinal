@@ -18,53 +18,50 @@
             <h1 class="ml-2 md:ml-8 font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-8" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
                 Pertanyaan
             </h1>
-
-            <div class=" relative overflow-x-auto mx-5 sm:mx-10">
-                <table class="w-full text-xs sm:text-base text-left border-collapse border border-slate-500 ">
-                    <thead class="text-xs text-center sm:text-base">
-                        <tr>
-                            <th scope="col" class="px-2 py-3 border border-slate-500">
-                                Nama
-                            </th>
-                            <th scope="col" class="px-2 py-3 border border-slate-500">
-                                Email
-                            </th>
-                            <th scope="col" class="px-2 py-3 border border-slate-500">
-
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- data 1 -->
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <td class="px-2 py-4 border border-slate-500">
-                                Nia
-                            </td>
-                            <td class="px-2 py-4 border border-slate-500">
-                                niatiniati123@gmail.com
-                            </td>
-                            <td class="px-2 py-4 border border-slate-500 text-center">
-                                <a href="/admin/konsultasi/detail_pertanyaan" class=" text-white p-2 sm:px-4 rounded-md bg-nav 
-                                hover:bg-gradb focus:bg-gradb transition duration-700">Detail</a>
-                            </td>
-                        </tr>
-
-                        <!-- data 2 -->
-                        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <td class="px-2 py-4 border border-slate-500">
-                                Shifa Humaira
-                            </td>
-                            <td class="px-2 py-4 border border-slate-500">
-                                shifahumaira@gmail.com
-                            </td>
-                            <td class="px-2 py-4 border border-slate-500 text-center">
-                                <a href="/admin/konsultasi/detail_pertanyaan" class=" text-white p-2 sm:px-4 rounded-md bg-nav 
-                                hover:bg-gradb focus:bg-gradb  transition duration-700">Detail</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <div class="relative overflow-x-auto shadow-md sm:rounded-lg mx-5 sm:mx-10">
+                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
+                        <thead class="text-xs uppercase bg-gray-500 text-gray-100">
+                            <tr>
+                                <th scope="col" class="px-6 py-3">
+                                    Nama
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Email
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd:bg-sky-100 even:bg-gray-50 border-b border-gray-500">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    Niati
+                                </th>
+                               
+                                <td class="px-6 py-4">
+                                    niati@gmail.com
+                                </td>
+                                <td class="px-6 py-4">
+                                    <a href="/admin/konsultasi/detail_pertanyaan" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Detail</a>
+                                </td>
+                            </tr>
+                            <tr class="odd:bg-gray-300 even:bg-gray-50 border-b border-gray-700">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                    Shifa
+                                </th>
+                               
+                                <td class="px-6 py-4">
+                                    shifa@gmail.com
+                                </td>
+                                <td class="px-6 py-4">
+                                    <a href="/admin/konsultasi/detail_pertanyaan" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Detail</a>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
 
             <div class="my-20">
                 <a href="/admin/konsultasi" class="bg-latar py-1 pr-4 pl-8 font-bold text-nav text-xs sm:text-base
