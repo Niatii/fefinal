@@ -72,7 +72,7 @@
                 </div>
             </form>
 
-            <a href="/admin/" class=" hover:text-blue-600 active:text-blue-800">
+            <a href="/user/" class=" hover:text-blue-600 active:text-blue-800">
                 <i class="fas fa-arrow-left mt-20 me-2"></i>Kembali ke Beranda
             </a>
         </div>

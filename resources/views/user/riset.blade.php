@@ -20,7 +20,7 @@
             <div class="grid gap-x-5 sm:gap-x-10 gap-y-2 grid-cols-2 mx-5 sm:mx-10 my-2 ">
                 <div class="w-full" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <a href="/user/Detail_Riset">
-                        <img src="{{ asset('storage/properti/4.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50" />
+                        <img src="{{ asset('storage/properti/4.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50" />
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail_Riset">
@@ -34,7 +34,7 @@
 
                 <div class="w-full" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <a href="/user/Detail_Riset">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50" />
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50" />
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail_Riset">
@@ -48,7 +48,7 @@
 
                 <div class="w-full " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <a href="/user/Detail_Riset">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50" />
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50" />
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail_Riset">
@@ -62,7 +62,7 @@
 
                 <div class="w-full " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <a href="/user/Detail_Riset">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50" />
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50" />
                     </a>
                     <div class="py-3">
                         <a href="/user/Detail_Riset">

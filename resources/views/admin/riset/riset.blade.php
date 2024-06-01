@@ -35,7 +35,7 @@
                 <div class="w-full" data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
                     <a href="/admin/riset/detail">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50"/>
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50"/>
                     </a>
                     <div class="py-3">
                         <a href="/admin/riset/detail">
@@ -52,7 +52,7 @@
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
                     <a href="/admin/riset/detail">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50"/>
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50"/>
                     </a>
                     <div class="py-3">
                         <a href="/admin/riset/detail">
@@ -69,7 +69,7 @@
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
                     <a href="/admin/riset/detail">
-                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50"/>
+                        <img src="{{ asset('storage/properti/2.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50"/>
                     </a>
                     <div class="py-3">
                         <a href="/admin/riset/detail">
@@ -86,7 +86,7 @@
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom">
                     <a href="/admin/riset/detail">
-                        <img src="{{ asset('storage/properti/3.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 hover:brightness-50"/>
+                        <img src="{{ asset('storage/properti/3.jpg') }}" alt="konsultasi" class="w-full aspect-16/9 object-cover hover:brightness-50"/>
                     </a>
                     <div class="py-3">
                         <a href="/admin/riset/detail">

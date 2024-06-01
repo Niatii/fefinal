@@ -21,10 +21,10 @@
          <div class="bg-nav w-full absolute top-0 left-0 justify-between flex">
              <div class="flex">
                 <a href="/user/">
-                    <img src="{{ asset('storage/properti/logo polibatam.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full sm:w-10">
+                    <img src="{{ asset('storage/properti/logo polibatam.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 aspect-1/1 object-cover  rounded-full sm:w-10">
                 </a>
                 <a href="/user/">
-                    <img src="{{ asset('storage/properti/logo 5.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:mx-2">
+                    <img src="{{ asset('storage/properti/logo 5.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full aspect-1/1 object-cover  sm:w-10 sm:mx-2">
                 </a>
                 <p class="font-thin text-xs mx-2 mt-4 text-white sm:text-base">
                     Penyedia Jasa Aplikasi Perpajakan
@@ -62,7 +62,7 @@
                      <ul class="block lg:flex">
                          <li class="group">
                              <a href="/user/" class="text-base text-black py-2 mx-8 flex group-hover:text-sky-600
-                                    lg:mx-5 {{ request()->is('/') ? 'text-sky-600' : 'text-black' }}" id="navhome">
+                                    lg:mx-5 {{ request()->is('user') ? 'text-sky-600' : 'text-black' }}" id="navhome">
                                  Home
                              </a>
                          </li>

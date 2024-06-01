@@ -14,7 +14,7 @@
     <section class="pt-36 sm:pt-40 mx-8">
         <div class="bg-white w-full">
             <div class="p-3 md:p-20 w-full">
-                <img class="aspect-16/9 w-full rounded-md" src="{{ asset('storage/properti/3.jpg') }}" alt="detail tentang kami" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
+                <img class="aspect-16/9 w-4/5  rounded-md object-cover" src="{{ asset('storage/properti/3.jpg') }}" alt="detail tentang kami" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">
                 <div class="flex flex-col justify-between py-4 leading-normal">
                     <h5 class="mb-4 text-xl md:text-3xl font-bold " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">Judul Page</h5>
                     <p class="mb-3 font-normal " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="150" data-aos-offset="0">

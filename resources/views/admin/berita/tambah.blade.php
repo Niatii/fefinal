@@ -14,11 +14,6 @@
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
             <div class="px-5 pt-20 md:px-20 w-full ">
-                <img class="object-cover w-8/12 rounded-md" src="{{ asset('storage/properti/2.jpg') }}" alt="detail tentang kami"
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="150"
-                data-aos-offset="0">
                 <div class="flex flex-col justify-between py-4 leading-normal">
                     <form action="">
                         <div>

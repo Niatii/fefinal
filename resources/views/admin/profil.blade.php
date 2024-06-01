@@ -50,9 +50,16 @@
                         <input type="number" id="nohp" class="block w-full p-2 border-black rounded-md  focus:ring-blue-500 focus:border-blue-500 ">
                     </div>
 
+                    <div>
+                        <label for="alamat" class="block text-xs md:text-base font-thin">
+                            Alamat
+                        </label>
+                        <textarea id="alamat" rows="5" class="block w-full  text-sm border border-black focus:ring-primary-500 rounded-md focus:border-primary-500 overflow-y-scroll" ></textarea>
+                    </div>
+
                     <div class="flex justify-end">
                         <button type="submit" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
-                            rounded-md sm:mb-20 ">
+                            rounded-md ">
                             Edit Profil
                         </button>
                     </div>

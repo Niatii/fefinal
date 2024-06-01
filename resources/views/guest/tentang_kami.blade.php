@@ -26,7 +26,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/guest/Detail_TentangKami">
-                            <img src="{{ asset('storage/properti/1.jpg') }}" alt="gambar pelatihan" class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
+                            <img src="{{ asset('storage/properti/1.jpg') }}" alt="gambar pelatihan" class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">
@@ -51,7 +51,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/guest/Detail_TentangKami">
-                            <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
+                            <img src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">
@@ -76,7 +76,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/guest/Detail_TentangKami">
-                            <img src="{{ asset('storage/properti/3.jpg') }}" alt="gambar pelatihan" class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
+                            <img src="{{ asset('storage/properti/3.jpg') }}" alt="gambar pelatihan" class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">
@@ -101,7 +101,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/guest/Detail_TentangKami">
-                            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar pelatihan" class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
+                            <img src="{{ asset('storage/properti/4.jpg') }}" alt="gambar pelatihan" class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" >
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">

@@ -52,7 +52,7 @@
 
                 <!-- item 5 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="{{ asset('storage/properti/slider 6.png') }}" class="absolute block  object-fill h-auto w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+                    <img src="{{ asset('storage/properti/slider 5.png') }}" class="absolute block  object-fill h-auto w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
                 </div>
             </div>
 

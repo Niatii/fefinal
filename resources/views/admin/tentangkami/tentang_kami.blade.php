@@ -21,7 +21,7 @@
     </div>
     <!-- tombol tambah end -->
 
-    <section  class="pt-36 mx-2 sm:mx-8 sm:pt-40 ">
+    <section  class="pt-36 mx-2 sm:mx-8 sm:pt-40 pb-20">
         <div class="bg-white w-full rounded-md pb-12">
             <h1 class="ml-2 pt-2 sm:pt-6 md:ml-8 font-bold text-wjudul my-4 md:text-2xl lg:text-3xl md:my-8"
                 data-aos="fade-zoom-in"
@@ -38,7 +38,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/admin/tentangkami/detail">
-                            <img class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/1.jpg') }}" alt="gambar pelatihan" />
+                            <img class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/1.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">
@@ -59,7 +59,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/admin/tentangkami/detail">
-                            <img class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
+                            <img class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">
@@ -80,7 +80,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/admin/tentangkami/detail">
-                            <img class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
+                            <img class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">
@@ -101,7 +101,7 @@
                 <div class="w-full grid grid-cols-3">
                     <div class="flex items-center">
                         <a href="/admin/tentangkami/detail">
-                            <img class="w-full xl:object-fill xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
+                            <img class="w-full object-cover xl:w-[419px] xl:h-[236px] 2xl:h-[414px] 2xl:w-[736px] aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar pelatihan" />
                         </a>
                     </div>
                     <div class="mx-2 h-20 sm:px-2 sm:h-28 md:h-44 sm:pt-3 md:pt-5 overflow-hidden col-span-2 ">

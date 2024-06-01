@@ -15,16 +15,19 @@
 <!-- AOS -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+<!-- Script modal -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <!-- Header Start -->
 <header class="w-full bg-transparent fixed top-0 left-0 h-28 z-50">
     <div class="container">
         <div class="bg-nav w-full absolute top-0 left-0 justify-between flex">
             <div class="flex">
                 <a href="/admin/">
-                    <img src="{{ asset('storage/properti/logo polibatam.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full sm:w-10">
+                    <img src="{{ asset('storage/properti/logo polibatam.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 aspect-1/1 object-cover rounded-full sm:w-10">
                 </a>
                 <a href="/admin/">
-                    <img src="{{ asset('storage/properti/logo 5.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full sm:w-10 sm:mx-2">
+                    <img src="{{ asset('storage/properti/logo 5.png') }}" alt="gambar properti" class="w-8 my-2 mx-2 rounded-full aspect-1/1 object-cover sm:w-10 sm:mx-2">
                 </a>
                 <p class="font-thin text-xs mx-2 mt-4 text-white sm:text-base">
                     Penyedia Jasa Aplikasi Perpajakan
@@ -68,21 +71,21 @@
                         <li class="group">
                             <a href="/admin/" class="text-base py-2 mx-8 flex group-hover:text-sky-600
                                     lg:mx-5 
-                                    {{ request()->is('/') ? 'text-sky-600' : 'text-black' }}" id="navhome">
+                                    {{ request()->is('admin') ? 'text-sky-600' : 'text-black' }}" id="navhome">
                                 Home
                             </a>
                         </li>
                         <li class="group relative">
                             <a href="/admin/tentangkami/" class="text-base py-2 mx-8 flex group-hover:text-sky-600
                                     lg:mx-5 
-                                    {{ request()->is('admin/tentang kami', 'admin/tentang kami/detail', 'admin/tentang kami/edit', 'admin/tentang kami/tambah') ? 'text-sky-600' : 'text-black' }}" id="tentangkami">
+                                    {{ request()->is('admin/tentangkami', 'admin/tentangkami/detail', 'admin/tentangkami/edit', 'admin/tentang kami/tambah') ? 'text-sky-600' : 'text-black' }}" id="tentangkami">
                                 Tentang Kami
                             </a>
                         </li>
                         <li class="group relative ">
                             <a href="/admin/konsultasi/" class="text-base py-2 mx-8 flex group-hover:text-sky-600
                                     lg:mx-5 
-                                    {{ request()->is('admin/konsultasi/', 'admin/konsultasi/detail', 'admin/konsultasi/edit', 'admin/konsultasi/tambah',
+                                    {{ request()->is('admin/konsultasi', 'admin/konsultasi/detail', 'admin/konsultasi/edit', 'admin/konsultasi/tambah',
                                     'admin/konsultasi/pertanyaan', 'admin/konsultasi/detail pertanyaan') ? 'text-sky-600' : 'text-black' }}" id="konsultasi">
                                 Konsultasi
                             </a>
