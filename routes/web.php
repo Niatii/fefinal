@@ -252,9 +252,7 @@ Route::prefix('admin')->group(function () {
         Route::get('/edit', function () {
             return view('admin/akademi/pelatihan/edit');
         });
-        Route::get('/tambah', function () {
-            return view('admin/akademi/pelatihan/tambah');
-        });
+       
     });
 
     Route::prefix('kegiatan')->group(function () {
@@ -267,9 +265,6 @@ Route::prefix('admin')->group(function () {
         Route::get('/edit', function () {
             return view('admin/akademi/kegiatan/edit');
         });
-        Route::get('/tambah', function () {
-            return view('admin/akademi/kegiatan/tambah');
-        });
     });
 
     Route::prefix('akademi')->group(function () {
@@ -281,6 +276,9 @@ Route::prefix('admin')->group(function () {
         });
         Route::get('/detail_pembayaran', function () {
             return view('admin/akademi/detail_bayar');
+        });
+        Route::get('/tambah', function () {
+            return view('admin/akademi/tambah');
         });
     });
 });

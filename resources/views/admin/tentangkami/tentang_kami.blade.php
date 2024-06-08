@@ -13,12 +13,14 @@
     <!-- Content Start -->
 
     <!-- tombol tambah start -->
+     <!-- edited -->
     <div class="fixed right-0 bottom-16 z-10">
-        <a href="/admin/tentangkami/tambah" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
+        <a href="/admin/tentangkami/tambah" class="bg-nav rounded-l-md hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
             transition duration-700 focus:bg-gradb">
             Tambah
         </a>
     </div>
+    <!-- edited -->
     <!-- tombol tambah end -->
 
     <section  class="pt-36 mx-2 sm:mx-8 sm:pt-40 pb-20">

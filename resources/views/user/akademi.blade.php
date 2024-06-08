@@ -23,7 +23,7 @@
             <div class="grid gap-x-5 sm:gap-x-10 gap-y-2 grid-cols-2 mx-5 sm:mx-10 mt-2">
                 <div class="group " data-aos="zoom-out-up" data-aos-delay="300">
                     <a href="/user/Pelatihan" class="hover:brightness-50">
-                        <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/4.jpg');">
+                        <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/latar.png');">
                             <div class="hero-overlay bg-opacity-70"></div>
                             <div class="hero-content text-center text-neutral-content">
                                 <div class="max-w-md">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="group" data-aos="zoom-out-up" data-aos-delay="200">
                     <a href="/user/Kegiatan" class="hover:brightness-50">
-                        <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/4.jpg');">
+                        <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/latar.png');">
                             <div class="hero-overlay bg-opacity-70"></div>
                             <div class="hero-content text-center text-neutral-content">
                                 <div class="max-w-md">

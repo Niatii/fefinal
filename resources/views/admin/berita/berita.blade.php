@@ -11,26 +11,27 @@
     
     <!-- Content Start -->
     <div class="fixed right-0 bottom-16 z-10">
-    <a href="/admin/berita/tambah" class="bg-nav hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
-    transition duration-700 focus:bg-gradb">Tambah</a>
+        <a href="/admin/berita/tambah" class="bg-nav rounded-l-md hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
+        transition duration-700 focus:bg-gradb">Tambah</a>
     </div>
+
     <section  class="pt-36 sm:pt-40 pb-12 mx-8">
         <div class="bg-white w-full pt-2 pb-20 mb-12">
            <!-- berita utama start-->
            <div class="flex gap-7 lg:gap-12 mx-5 sm:mx-10 my-2">
-                <div class="w-9/12">
+                <div class="w-full">
                     <a href="/admin/berita/detail">
                         <img class="w-full object-cover aspect-16/9 hover:brightness-50" src="{{ asset('storage/properti/6.jpg') }}" alt="gambar berita" data-aos="fade-right">
                     </a>
                 </div>
-                <div class="w-4/12">
+                <!-- <div class="w-4/12">
                     <a href="/admin/berita/detail">
                         <img class=" w-full aspect-16/9 object-cover hover:brightness-50 mb-4 md:mb-11 2xl:mb-20 2xl:mt-8" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-down">
                     </a>
                     <a href="/admin/berita/detail">
                         <img class=" w-full aspect-16/9 object-cover hover:brightness-50 mt-5 md:mt-11 2xl:mt-20 2xl:mb-8" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2" data-aos="fade-up">
                     </a>
-                </div>
+                </div> -->
             </div>
             <!-- berita utama end -->
            <div class="mx-5 sm:mx-10 mt-4">

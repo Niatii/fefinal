@@ -10,6 +10,15 @@
     <!-- header -->
    @include('components.headeradmin')
 
+   <!-- edited -->
+   <div class="fixed left-0 top-48 z-10">
+        <a href="/admin/pelatihan/detail" class="bg-nav rounded-r-md hover:bg-gradb text-xs md:text-base text-white py-2 px-4 md:px-8
+            transition duration-700 focus:bg-gradb">
+            Kembali
+        </a>
+    </div>
+    <!-- edited -->
+
     <!-- Content Start -->
     <section  class="pt-36 mx-8 sm:pt-40 flex justify-center relative">
         <div class="bg-white w-full rounded-md pb-12">
@@ -25,11 +34,11 @@
                             <input class="block w-full mb-5 text-xs text-gray-900 border border-black rounded-lg cursor-pointer focus:outline-none" id="small_size" type="file">
                         </div>
                         <div>
-                            <label for="judul" class="text-xs md:text-base">Judul Pelatihan</label>
+                            <label for="judul" class="text-xs md:text-base">Judul Akademi</label>
                             <input type="text" id="judul" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
                         <div>
-                            <label for="tanggal" class="text-xs md:text-base">Tanggal Pelatihan</label>
+                            <label for="tanggal" class="text-xs md:text-base">Tanggal Akademi</label>
                             <input type="date" id="tanggal" class="text-xs md:text-base w-full border-black rounded-lg my-2">
                         </div>
                         <div>
@@ -44,10 +53,10 @@
                             <label for="slot" class="text-xs md:text-base">Slot Peserta</label>
                             <input type="number" id="slot" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
                         </div>
-                        <div>
+                        <!-- <div>
                             <label for="pelatih" class="text-xs md:text-base">Nama Pelatih</label>
                             <input type="text" id="pelatih" class="text-xs md:text-base w-full border-black rounded-lg my-2" >
-                        </div>
+                        </div> -->
                         <div class="border border-black my-5 rounded-lg">
                         <textarea id="informasi" rows="15" class="block w-full  text-sm border-none focus:ring-primary-500 focus:border-primary-500 overflow-y-scroll" placeholder="Edit Informasi..."></textarea>
                         </div>

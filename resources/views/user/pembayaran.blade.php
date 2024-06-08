@@ -28,25 +28,25 @@
                             <label for="username" class="text-xs md:text-base ">
                                 Nama Pengguna
                             </label>
-                            <input type="text" id="username" autocomplete="username" class="text-xs md:text-base w-full border-black rounded-lg my-2" required>
+                            <input type="text" id="username" autocomplete="username" class="text-xs md:text-base w-full border-black rounded-lg my-2" placeholder="Liam_12" required>
                         </div>
                         <div>
                             <label for="name" class="text-xs md:text-base">
                                 Nama
                             </label>
-                            <input type="text" id="name" autocomplete="name" class="text-xs md:text-base w-full border-black rounded-lg my-2" required>
+                            <input type="text" id="name" autocomplete="name" class="text-xs md:text-base w-full border-black rounded-lg my-2" placeholder="William James Moriarty" required>
                         </div>
                         <div>
                             <label for="email" class="text-xs md:text-base">
                                 Email
                             </label>
-                            <input type="email" id="email" autocomplete="email" class="text-xs md:text-base w-full border-black rounded-lg my-2" required>
+                            <input type="email" id="email" autocomplete="email" class="text-xs md:text-base w-full border-black rounded-lg my-2" placeholder="liam@gmail.com" required>
                         </div>
                         <div>
                             <label for="pembayaran" class="text-xs md:text-base">
                                 Judul Pembayaran
                             </label>
-                            <input type="text" id="pembayaran" autocomplete="pembayaran" class="text-xs md:text-base w-full border-black rounded-lg my-2" required>
+                            <input type="text" id="pembayaran" autocomplete="pembayaran" class="text-xs md:text-base w-full border-black rounded-lg my-2"  required>
                         </div>
                         <div>
                             <label for="total" class="text-xs md:text-base">

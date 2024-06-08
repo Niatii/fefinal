@@ -25,7 +25,7 @@
                 <!-- pelatihan start -->
                 <div class="group " data-aos="zoom-out-up" data-aos-delay="300">
                     <a href="/guest/Pelatihan" class="hover:brightness-50">
-                    <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/4.jpg');">
+                    <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/latar.png');">
                         <div class="hero-overlay bg-opacity-70"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
@@ -42,7 +42,7 @@
                 <!-- kegiatan start -->
                 <div class="group" data-aos="zoom-out-up" data-aos-delay="200">
                     <a href="/guest/Kegiatan" class="hover:brightness-50">
-                    <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/4.jpg');">
+                    <div class="hero bg-cover bg-center h-36 md:h-64 lg:h-80" style="background-image: url('/storage/properti/latar.png');">
                         <div class="hero-overlay bg-opacity-70"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">

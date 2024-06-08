@@ -40,7 +40,7 @@
                 <form action="" class="mx-5 sm:mx-16">
                     <div class="my-6">
                         <label for="nama-bank" class="block mb-2 text-xs md:text-base font-thin">Nama Bank</label>
-                        <input type="text" id="nama-bank" class="block w-full p-2 border-black rounded-md  focus:ring-blue-500 focus:border-blue-500 ">
+                        <input type="text" id="nama-bank" class="block w-full p-2 border-black rounded-md  focus:ring-blue-500 focus:border-blue-500 " placeholder="cth. BNI" >
                     </div>
                     <div>
                         <input class="block w-full mb-5 text-xs text-gray-900 border border-black rounded-lg cursor-pointer focus:outline-none" id="small_size" type="file">

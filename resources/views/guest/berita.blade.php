@@ -16,19 +16,19 @@
         <div class="bg-white w-full pt-2 pb-20">
             <!-- berita utama start-->
             <div class="flex gap-7 lg:gap-12 mx-5 sm:mx-10 my-2">
-                <div class="w-9/12">
+                <div class="w-full">
                     <a href="/guest/Detail_Berita">
                         <img class="w-full aspect-16/9 object-cover hover:brightness-50" src="{{ asset('storage/properti/6.jpg') }}" alt="gambar berita" data-aos="fade-right">
                     </a>
                 </div>
-                <div class="w-4/12">
+                <!-- <div class="w-4/12">
                     <a href="/guest/Detail_Berita">
                         <img class=" w-full aspect-16/9 object-cover mb-4 md:mb-11 2xl:mb-20 2xl:mt-8 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" data-aos="fade-down">
                     </a>
                     <a href="/guest/Detail_Berita">
                         <img class=" w-full aspect-16/9 object-cover mt-5 md:mt-11 2xl:mt-20 2xl:mb-8 hover:brightness-50" src="{{ asset('storage/properti/2.jpg') }}" alt="gambar berita" class="mt-2" data-aos="fade-up">
                     </a>
-                </div>
+                </div> -->
             </div>
             <!-- berita utama end -->
 

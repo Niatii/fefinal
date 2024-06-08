@@ -31,34 +31,34 @@
   <div class="flex flex-col items-center justify-center px-6 py-2 mx-auto h-screen ">
       <div class="w-full md:mt-0 sm:max-w-md xl:p-0" data-aos="zoom-in">
           <div class="p-4 space-y-2 md:space-y-3 sm:p-8 text-white ">
-              <h1 class="text-xl leading-tight tracking-tight md:text-2xl">
-                  PJAP
+              <h1 class="text-xl leading-tight tracking-tight md:text-2xl font-bold">
+                  PJAP Polibatam
               </h1>
               <p>Selamat Datang di <br>
               Penyedia Jasa Aplikasi Perpajakan
               </p>
               <hr>
-              <h1 class="text-center text-2xl leading-tight tracking-tight md:text-4xl font-thin font-bold">Daftar</h1>
+              <h1 class="text-center text-2xl leading-tight tracking-tight md:text-4xl font-thin font-[700]">Daftar</h1>
               <form class="space-y-4 md:space-y-2" action="#">
                   <div>
                       <label for="email" class="block mb-2 text-xs  text-white">Masukkan alamat email anda</label>
-                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3 placeholder:text-xs " placeholder="Email" required="">
+                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3 placeholder:text-xs " placeholder="liam@gmail.com" required="">
                   </div>
                   
                   <div class="grid grid-cols-2 gap-2 w-full">
                         <div>
                             <label for="username" class="block mb-2 text-xs  text-white">Nama Pengguna</label>
-                            <input type="text" name="username" id="username" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3 placeholder:text-xs " placeholder="Nama Pengguna" required="">
+                            <input type="text" name="username" id="username" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3 placeholder:text-xs " placeholder="Liam_12" required="">
                         </div>
                         <div>
                             <label for="notelp" class="block mb-2 text-xs  text-white">No.Telp</label>
-                            <input type="number" name="notelp" id="notelp" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3 placeholder:text-xs " placeholder="No.Telp" required="">
+                            <input type="number" name="notelp" id="notelp" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3 placeholder:text-xs " placeholder="088888888888" required="">
                         </div>
                   </div>
 
                   <div>
                       <label for="password" class="block mb-2 text-xs text-white">Masukkan Kata Sandi</label>
-                      <input type="password" name="password" id="password" placeholder="Kata Sandi" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3  placeholder:text-xs " required="">
+                      <input type="password" name="password" id="password" placeholder="Kombinasi Huruf Kecil, Kapital dan Angka" class="bg-gray-50 border border-gray-300 text-gray-900 md:text-xs rounded-xl focus:ring-primary-600 focus:border-primary-600 block w-full px-3  placeholder:text-xs " required="">
                   </div>
                   
                    <div class="text-center mt-4 lg:text-xs lg:mt-5">
